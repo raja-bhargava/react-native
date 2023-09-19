@@ -33,6 +33,9 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+import android.util.Log;
+import android.os.Build;
 
 public class MountItemDispatcher {
 
@@ -44,15 +47,13 @@ public class MountItemDispatcher {
   private final ItemDispatchListener mItemDispatchListener;
 
   @NonNull
-  private final ConcurrentLinkedQueue<DispatchCommandMountItem> mViewCommandMountItems =
-      new ConcurrentLinkedQueue<>();
+  private final Queue<DispatchCommandMountItem> mViewCommandMountItems;
 
   @NonNull
-  private final ConcurrentLinkedQueue<MountItem> mMountItems = new ConcurrentLinkedQueue<>();
+  private final Queue<MountItem> mMountItems;
 
   @NonNull
-  private final ConcurrentLinkedQueue<PreAllocateViewMountItem> mPreMountItems =
-      new ConcurrentLinkedQueue<>();
+  private final Queue<PreAllocateViewMountItem> mPreMountItems;
 
   private boolean mInDispatch = false;
   private int mReDispatchCounter = 0;
@@ -62,6 +63,17 @@ public class MountItemDispatcher {
   public MountItemDispatcher(MountingManager mountingManager, ItemDispatchListener listener) {
     mMountingManager = mountingManager;
     mItemDispatchListener = listener;
+    String versionAndroid = Build.VERSION.RELEASE;
+    Log.i("VERSION21", "MountItemDispatcher" + versionAndroid);
+    if (versionAndroid.equals("12")) {
+      mViewCommandMountItems = new LinkedBlockingQueue<>();
+      mMountItems = new LinkedBlockingQueue<>();
+      mPreMountItems = new LinkedBlockingQueue<>();
+    } else {
+      mViewCommandMountItems = new ConcurrentLinkedQueue<>();
+      mMountItems = new ConcurrentLinkedQueue<>();
+      mPreMountItems = new ConcurrentLinkedQueue<>();
+    }
   }
 
   @AnyThread
@@ -371,6 +383,25 @@ public class MountItemDispatcher {
     return result;
   }
 
+  @Nullable
+  private static <E extends MountItem> List<E> drainConcurrentItemQueueAndroi12(
+      LinkedBlockingQueue<E> queue) {
+    if (queue.isEmpty()) {
+      return null;
+    }
+    List<E> result = new ArrayList<>();
+    do {
+      E item = queue.poll();
+      if (item != null) {
+        result.add(item);
+      }
+    } while (!queue.isEmpty());
+    if (result.size() == 0) {
+      return null;
+    }
+    return result;
+  }
+
   /** Detect if we still have processing time left in this frame. */
   private static boolean haveExceededNonBatchedFrameTime(long frameTimeNanos) {
     long timeLeftInFrame = FRAME_TIME_MS - ((System.nanoTime() - frameTimeNanos) / 1000000);
@@ -380,17 +411,35 @@ public class MountItemDispatcher {
   @UiThread
   @ThreadConfined(UI)
   private List<DispatchCommandMountItem> getAndResetViewCommandMountItems() {
-    return drainConcurrentItemQueue(mViewCommandMountItems);
+    String versionAndroid = Build.VERSION.RELEASE;
+    Log.i("VERSION21", "getAndResetViewCommandMountItems" + versionAndroid);
+    if (versionAndroid.equals("12")) {
+      return drainConcurrentItemQueueAndroi12((LinkedBlockingQueue<DispatchCommandMountItem>) mViewCommandMountItems);
+    } else {
+      return drainConcurrentItemQueue((ConcurrentLinkedQueue<DispatchCommandMountItem>) mViewCommandMountItems);
+    }
   }
 
   @UiThread
   @ThreadConfined(UI)
   private List<MountItem> getAndResetMountItems() {
-    return drainConcurrentItemQueue(mMountItems);
+    String versionAndroid = Build.VERSION.RELEASE;
+    Log.i("VERSION21", "getAndResetMountItems" + versionAndroid);
+    if (versionAndroid.equals("12")) {
+      return drainConcurrentItemQueueAndroi12((LinkedBlockingQueue<MountItem>) mMountItems);
+    } else {
+      return drainConcurrentItemQueue((ConcurrentLinkedQueue<MountItem>) mMountItems);
+    }
   }
 
   private Collection<PreAllocateViewMountItem> getAndResetPreMountItems() {
-    return drainConcurrentItemQueue(mPreMountItems);
+    String versionAndroid = Build.VERSION.RELEASE;
+    Log.i("VERSION21", "getAndResetPreMountItems" + versionAndroid);
+    if (versionAndroid.equals("12")) {
+      return drainConcurrentItemQueueAndroi12((LinkedBlockingQueue<PreAllocateViewMountItem>) mPreMountItems);
+    } else {
+      return drainConcurrentItemQueue((ConcurrentLinkedQueue<PreAllocateViewMountItem>) mPreMountItems);
+    }
   }
 
   public long getBatchedExecutionTime() {
