@@ -1,0 +1,346 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "ReactCommon/cxxreact/libreactnative.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/pwd/ReactCommon/cxxreact/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-std=c++1y"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-lambda-capture"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DLOG_TAG=\\\"ReactNative\\\""
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_NO_CONFIG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_CLOCK_GETTIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_USE_LIBCPP=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_MOBILE=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_RECVMMSG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_PTHREAD=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_XSI_STRERROR_R=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/pwd/ReactCommon"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/boost/boost_1_76_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/callinvoker/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/glog/exported"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/double-conversion/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/jsi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/logger/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/reactperflogger/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/runtimeexecutor/."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glog::@9a2a1916af857b849fa7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost::@c9c78bf96126e402c328"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "double-conversion::@56d90e63a91ea9f1c25f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@358f71f0d6c25bf39136"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "folly_runtime::@53c70990978ba6fc11be"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "runtimeexecutor::@1b008ade91d1fd241fb9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "reactperflogger::@b36070f98987dde1d735"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "logger::@d962460f6100b31450ce"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "jsi::@ea6d4562f26f4f21d2c1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "jsinspector::@27fc2609ebe92d58b0f6"
+		}
+	],
+	"id" : "reactnative::@80ca67e65689c53329a3",
+	"name" : "reactnative",
+	"nameOnDisk" : "libreactnative.a",
+	"paths" : 
+	{
+		"build" : "ReactCommon/cxxreact",
+		"source" : "/pwd/ReactCommon/cxxreact"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/CxxNativeModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/Instance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/JSBigString.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/JSBundleType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/JSExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/JSIndexedRAMBundle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/MethodCall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/ModuleRegistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/NativeToJsBridge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/RAMBundleRegistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/ReactMarker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/cxxreact/SampleCxxModule.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

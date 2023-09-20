@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ReactCommon/react/renderer/components/root",
+		"source" : "/pwd/ReactCommon/react/renderer/components/root"
+	}
+}

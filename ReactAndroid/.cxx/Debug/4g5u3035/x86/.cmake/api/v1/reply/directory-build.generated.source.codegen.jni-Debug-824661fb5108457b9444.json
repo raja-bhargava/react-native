@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "build/generated/source/codegen/jni",
+		"source" : "/pwd/ReactAndroid/build/generated/source/codegen/jni"
+	}
+}

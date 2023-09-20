@@ -1,0 +1,1758 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "build/third-party-ndk/glog",
+					"jsonFile" : "directory-build.third-party-ndk.glog-RelWithDebInfo-6b16df84869923d485a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/glog",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/boost",
+					"jsonFile" : "directory-build.third-party-ndk.boost-RelWithDebInfo-6add853951a70bd424bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/boost",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/double-conversion",
+					"jsonFile" : "directory-build.third-party-ndk.double-conversion-RelWithDebInfo-228551e8b37a6a7591de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/double-conversion",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/fmt",
+					"jsonFile" : "directory-build.third-party-ndk.fmt-RelWithDebInfo-18af1f59f07fe7e46f94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/fmt",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/libevent",
+					"jsonFile" : "directory-build.third-party-ndk.libevent-RelWithDebInfo-5d92dce7e07a6df51be3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/libevent",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/folly",
+					"jsonFile" : "directory-build.third-party-ndk.folly-RelWithDebInfo-6d3a90b22ac155f57889.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/folly",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "build/third-party-ndk/jsc",
+					"jsonFile" : "directory-build.third-party-ndk.jsc-RelWithDebInfo-665abf189f9296e32289.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/third-party-ndk/jsc"
+				},
+				{
+					"build" : "ReactCommon/yoga",
+					"jsonFile" : "directory-ReactCommon.yoga-RelWithDebInfo-78d306c0aaea78f2a198.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/yoga",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "ReactCommon/runtimeexecutor",
+					"jsonFile" : "directory-ReactCommon.runtimeexecutor-RelWithDebInfo-bdf0b70695afcdd357b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/runtimeexecutor",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "ReactCommon/reactperflogger",
+					"jsonFile" : "directory-ReactCommon.reactperflogger-RelWithDebInfo-d45b9f3b66cdd84257a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/reactperflogger",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "ReactCommon/logger",
+					"jsonFile" : "directory-ReactCommon.logger-RelWithDebInfo-e75d83a0dea147aeb240.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/logger",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "ReactCommon/jsiexecutor",
+					"jsonFile" : "directory-ReactCommon.jsiexecutor-RelWithDebInfo-2da190cdb28059ba76c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/jsiexecutor",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "ReactCommon/cxxreact",
+					"jsonFile" : "directory-ReactCommon.cxxreact-RelWithDebInfo-e7b162ddd45ba9d2bb63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/cxxreact",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "ReactCommon/jsc",
+					"jsonFile" : "directory-ReactCommon.jsc-RelWithDebInfo-c9bbdc82826926c73a0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/jsc",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "ReactCommon/jsi",
+					"jsonFile" : "directory-ReactCommon.jsi-RelWithDebInfo-8c18be9738f6c8e81dd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/jsi",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "ReactCommon/butter",
+					"jsonFile" : "directory-ReactCommon.butter-RelWithDebInfo-5e399e510ddb70db35ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/butter"
+				},
+				{
+					"build" : "ReactCommon/callinvoker",
+					"jsonFile" : "directory-ReactCommon.callinvoker-RelWithDebInfo-5026a38fcdbbd1b6777d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/callinvoker"
+				},
+				{
+					"build" : "ReactCommon/jsinspector",
+					"jsonFile" : "directory-ReactCommon.jsinspector-RelWithDebInfo-90b34c8d2ec7b6c2b073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/jsinspector",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "ReactCommon/hermes/executor",
+					"jsonFile" : "directory-ReactCommon.hermes.executor-RelWithDebInfo-b14ba61a19c344f8ac0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/hermes/executor",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "ReactCommon/hermes/inspector",
+					"jsonFile" : "directory-ReactCommon.hermes.inspector-RelWithDebInfo-4ba1f4b22f0c342130a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/hermes/inspector",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/runtimescheduler",
+					"jsonFile" : "directory-ReactCommon.react.renderer.runtimescheduler-RelWithDebInfo-9b17281f5879a74cac2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/runtimescheduler",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "ReactCommon/react/debug",
+					"jsonFile" : "directory-ReactCommon.react.debug-RelWithDebInfo-b79de82debec48d6221c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/debug",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "ReactCommon/react/config",
+					"jsonFile" : "directory-ReactCommon.react.config-RelWithDebInfo-a6eef0dfd4e401249724.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/config",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/animations",
+					"jsonFile" : "directory-ReactCommon.react.renderer.animations-RelWithDebInfo-1cdc8e7f8e6eefb977d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/animations",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/attributedstring",
+					"jsonFile" : "directory-ReactCommon.react.renderer.attributedstring-RelWithDebInfo-d699bd3fdc53a005dac2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/attributedstring",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/componentregistry",
+					"jsonFile" : "directory-ReactCommon.react.renderer.componentregistry-RelWithDebInfo-09d00d41fe4c233bb9a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/componentregistry",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/mounting",
+					"jsonFile" : "directory-ReactCommon.react.renderer.mounting-RelWithDebInfo-2e334859ee514d11717c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/mounting",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/scheduler",
+					"jsonFile" : "directory-ReactCommon.react.renderer.scheduler-RelWithDebInfo-541cd9dbef135f34bbeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/scheduler",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/telemetry",
+					"jsonFile" : "directory-ReactCommon.react.renderer.telemetry-RelWithDebInfo-131930e830a45778a534.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/telemetry",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/templateprocessor",
+					"jsonFile" : "directory-ReactCommon.react.renderer.templateprocessor-RelWithDebInfo-1d9a9ebab3fc3000689b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/templateprocessor",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/uimanager",
+					"jsonFile" : "directory-ReactCommon.react.renderer.uimanager-RelWithDebInfo-a5c8ec7392f658305396.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/uimanager",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/core",
+					"jsonFile" : "directory-ReactCommon.react.renderer.core-RelWithDebInfo-8c491f9e805e8a338b84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/core",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/graphics",
+					"jsonFile" : "directory-ReactCommon.react.renderer.graphics-RelWithDebInfo-eae40e6ad7a8ae3206c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/graphics",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/debug",
+					"jsonFile" : "directory-ReactCommon.react.renderer.debug-RelWithDebInfo-9858f537c5e34bca0e6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/debug",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/imagemanager",
+					"jsonFile" : "directory-ReactCommon.react.renderer.imagemanager-RelWithDebInfo-9039f2924b90cdad590d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/imagemanager",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/view",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.view-RelWithDebInfo-b9630f90d44b05c1e497.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/view",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/switch",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.switch-RelWithDebInfo-53ff8f036cc456a2657b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/switch",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/textinput",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.textinput-RelWithDebInfo-c3a31df2e9c94fd63885.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/textinput",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/progressbar",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.progressbar-RelWithDebInfo-963db4aceccef14e9968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/progressbar",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/slider",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.slider-RelWithDebInfo-84465cb61f84077c2bc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/slider",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/root",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.root-RelWithDebInfo-64fc7de7cb19f7532dce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/root",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/image",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.image-RelWithDebInfo-2a1d7e6a379dcef4bc9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/image",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/componentregistry/native",
+					"jsonFile" : "directory-ReactCommon.react.renderer.componentregistry.native-RelWithDebInfo-2be8f6619081e19fbfb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/componentregistry/native",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/text",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.text-RelWithDebInfo-be680930823902c89682.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/text",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/unimplementedview",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.unimplementedview-RelWithDebInfo-53a1b9970bc344073d05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/unimplementedview",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/modal",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.modal-RelWithDebInfo-cfdbdbe59d65bb38cbae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/modal",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/components/scrollview",
+					"jsonFile" : "directory-ReactCommon.react.renderer.components.scrollview-RelWithDebInfo-103cb3d87ff32f37979b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/components/scrollview",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/leakchecker",
+					"jsonFile" : "directory-ReactCommon.react.renderer.leakchecker-RelWithDebInfo-f84c749206e1420bf734.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/leakchecker",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/textlayoutmanager",
+					"jsonFile" : "directory-ReactCommon.react.renderer.textlayoutmanager-RelWithDebInfo-e146e7d9508ab3a83a73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/textlayoutmanager",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "ReactCommon/react/utils",
+					"jsonFile" : "directory-ReactCommon.react.utils-RelWithDebInfo-db91435c7979fd5885a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/utils",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "ReactCommon/react/bridging",
+					"jsonFile" : "directory-ReactCommon.react.bridging-RelWithDebInfo-30bfa8a0a52cad3e46c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/bridging",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "ReactCommon/react/renderer/mapbuffer",
+					"jsonFile" : "directory-ReactCommon.react.renderer.mapbuffer-RelWithDebInfo-548cfcf68f18cc055058.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/renderer/mapbuffer",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "ReactCommon/react/nativemodule/core",
+					"jsonFile" : "directory-ReactCommon.react.nativemodule.core-RelWithDebInfo-faf393009ac186f4d5ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/react/nativemodule/core",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "build/generated/source/codegen/jni",
+					"jsonFile" : "directory-build.generated.source.codegen.jni-RelWithDebInfo-824661fb5108457b9444.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactAndroid/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/first-party/fb",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.first-party.fb-RelWithDebInfo-6513a7cd6551f8007232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "first-party/fb",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/first-party/fbgloginit",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.first-party.fbgloginit-RelWithDebInfo-576de81ad5d66674545d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "first-party/fbgloginit",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/first-party/yogajni",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.first-party.yogajni-RelWithDebInfo-49d6cab0bf63219dbe74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "first-party/yogajni",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/cxxcomponents",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.cxxcomponents-RelWithDebInfo-9b22ea84ea2464a926fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/cxxcomponents",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/jni",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.jni-RelWithDebInfo-76848572048095e5afab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/jni",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/reactperflogger",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.reactperflogger-RelWithDebInfo-6a5933db25c71ab3de4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/reactperflogger",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/jscexecutor",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.jscexecutor-RelWithDebInfo-5139777c9b2aadea1a81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/jscexecutor",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/turbomodule",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.turbomodule-RelWithDebInfo-60b585640d6a183545d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/turbomodule",
+					"targetIndexes" : 
+					[
+						1,
+						64
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/uimanager",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.uimanager-RelWithDebInfo-f907e8b47588835859f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/uimanager",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/mapbuffer",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.mapbuffer-RelWithDebInfo-1d6cd8d2baa204365830.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/mapbuffer",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/reactnativeblob",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.reactnativeblob-RelWithDebInfo-832e89c0d703c2fa0154.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/reactnativeblob",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/fabric",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.fabric-RelWithDebInfo-3525ad1001827d7db472.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/fabric",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/newarchdefaults",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.newarchdefaults-RelWithDebInfo-b31b77fc1ebe4a14586b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/newarchdefaults",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/hermes/reactexecutor",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.hermes.reactexecutor-RelWithDebInfo-5aea549b5f79cc1ce695.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/hermes/reactexecutor",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "ReactAndroid/src/main/jni/react/hermes/instrumentation",
+					"jsonFile" : "directory-ReactAndroid.src.main.jni.react.hermes.instrumentation-RelWithDebInfo-a64872f83345ed1235f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "react/hermes/instrumentation",
+					"targetIndexes" : 
+					[
+						18
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69
+					],
+					"name" : "ReactAndroid",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "boost::@c9c78bf96126e402c328",
+					"jsonFile" : "target-boost-RelWithDebInfo-f5dd9b8bbe8a867d5fff.json",
+					"name" : "boost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "callinvokerholder::@ffcb52844f4d2ac7d621",
+					"jsonFile" : "target-callinvokerholder-RelWithDebInfo-ea9960e535fbf20b7e58.json",
+					"name" : "callinvokerholder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "cxxcomponents::@5f8e920b31f91c6c7add",
+					"jsonFile" : "target-cxxcomponents-RelWithDebInfo-47c6c006749e0227cecc.json",
+					"name" : "cxxcomponents",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "double-conversion::@56d90e63a91ea9f1c25f",
+					"jsonFile" : "target-double-conversion-RelWithDebInfo-75b607c2f689d21ae1e2.json",
+					"name" : "double-conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "event::@225e913541f4510aca08",
+					"jsonFile" : "target-event-RelWithDebInfo-2db5e3ec4c916d070a17.json",
+					"name" : "event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "fabricjni::@724de93f9b5fbfb87c87",
+					"jsonFile" : "target-fabricjni-RelWithDebInfo-699835988e502e22ec66.json",
+					"name" : "fabricjni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "fb::@704184832e6216ff67de",
+					"jsonFile" : "target-fb-RelWithDebInfo-9afed4d56dabdf97cf06.json",
+					"name" : "fb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fmt::@358f71f0d6c25bf39136",
+					"jsonFile" : "target-fmt-RelWithDebInfo-a215f4410a900082ddf2.json",
+					"name" : "fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "folly_futures::@53c70990978ba6fc11be",
+					"jsonFile" : "target-folly_futures-RelWithDebInfo-5e11c6260e418a4509ce.json",
+					"name" : "folly_futures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "folly_runtime::@53c70990978ba6fc11be",
+					"jsonFile" : "target-folly_runtime-RelWithDebInfo-a40e30984feefc022859.json",
+					"name" : "folly_runtime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glog::@9a2a1916af857b849fa7",
+					"jsonFile" : "target-glog-RelWithDebInfo-a0c7758d933c3c229186.json",
+					"name" : "glog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "glog_init::@3e08e23b497523762ccf",
+					"jsonFile" : "target-glog_init-RelWithDebInfo-06703b1d9c0787278852.json",
+					"name" : "glog_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "hermes_executor::@bd543b84ba7084d6feda",
+					"jsonFile" : "target-hermes_executor-RelWithDebInfo-d86709785907879e7a91.json",
+					"name" : "hermes_executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "hermes_executor_common::@11ee16ea4c8081619707",
+					"jsonFile" : "target-hermes_executor_common-RelWithDebInfo-babd1dca33188b09f018.json",
+					"name" : "hermes_executor_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hermes_inspector::@4548f609e1ee9e4451cd",
+					"jsonFile" : "target-hermes_inspector-RelWithDebInfo-a89ec838a31d8c7ec622.json",
+					"name" : "hermes_inspector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "jscexecutor::@365509cf19a8f5bdab14",
+					"jsonFile" : "target-jscexecutor-RelWithDebInfo-8ada520a710a670f552c.json",
+					"name" : "jscexecutor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "jscruntime::@1f6211448c69126914ba",
+					"jsonFile" : "target-jscruntime-RelWithDebInfo-14ee39246f9aca50b41a.json",
+					"name" : "jscruntime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "jsi::@ea6d4562f26f4f21d2c1",
+					"jsonFile" : "target-jsi-RelWithDebInfo-197bfd51216e055840b8.json",
+					"name" : "jsi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "jsijniprofiler::@c1cc81ed1d1a220cd2f7",
+					"jsonFile" : "target-jsijniprofiler-RelWithDebInfo-6e5959b514b1f66171dc.json",
+					"name" : "jsijniprofiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "jsinspector::@27fc2609ebe92d58b0f6",
+					"jsonFile" : "target-jsinspector-RelWithDebInfo-9f509435406be4a75430.json",
+					"name" : "jsinspector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "jsireact::@3fb2342d35029dfa08b1",
+					"jsonFile" : "target-jsireact-RelWithDebInfo-8dfbe851d808fc4c7dd4.json",
+					"name" : "jsireact",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "logger::@d962460f6100b31450ce",
+					"jsonFile" : "target-logger-RelWithDebInfo-1e6c04b0207c7f3550bc.json",
+					"name" : "logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "mapbufferjni::@8ca758db982e8c687423",
+					"jsonFile" : "target-mapbufferjni-RelWithDebInfo-d83a50c639a21c95dbae.json",
+					"name" : "mapbufferjni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "react_bridging::@052818728629aa4c5c0b",
+					"jsonFile" : "target-react_bridging-RelWithDebInfo-c76d588a1ec2ef0c2943.json",
+					"name" : "react_bridging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "react_codegen_rncore::@c68905ef9ff33c734583",
+					"jsonFile" : "target-react_codegen_rncore-RelWithDebInfo-b9ec0cda3e88cf9c0922.json",
+					"name" : "react_codegen_rncore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "react_config::@38d90fd5139e790db923",
+					"jsonFile" : "target-react_config-RelWithDebInfo-229f6d09a3789e078809.json",
+					"name" : "react_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "react_debug::@35fb7b38a44fcba5aa74",
+					"jsonFile" : "target-react_debug-RelWithDebInfo-dca544a2facace4a096f.json",
+					"name" : "react_debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "react_nativemodule_core::@24ffb38f6c40409d74b5",
+					"jsonFile" : "target-react_nativemodule_core-RelWithDebInfo-1f33c5ee6be8bbcf1a45.json",
+					"name" : "react_nativemodule_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "react_newarchdefaults::@5009e6eec912eac07dcd",
+					"jsonFile" : "target-react_newarchdefaults-RelWithDebInfo-5cde019555576429a8a2.json",
+					"name" : "react_newarchdefaults",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "react_render_animations::@e8cce95a0a051ce59ab6",
+					"jsonFile" : "target-react_render_animations-RelWithDebInfo-de044c106c5709b59462.json",
+					"name" : "react_render_animations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "react_render_attributedstring::@7983c1f56566669c0bef",
+					"jsonFile" : "target-react_render_attributedstring-RelWithDebInfo-5c316d09f9bad10156ef.json",
+					"name" : "react_render_attributedstring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "react_render_componentregistry::@95c3d2d72882d7785325",
+					"jsonFile" : "target-react_render_componentregistry-RelWithDebInfo-b1cc2f7a0fb5a85f9448.json",
+					"name" : "react_render_componentregistry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "react_render_core::@b04cf7b5469b949f4f0f",
+					"jsonFile" : "target-react_render_core-RelWithDebInfo-e06df0676232bc3b62d8.json",
+					"name" : "react_render_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "react_render_debug::@148e52b719f25cff4b8d",
+					"jsonFile" : "target-react_render_debug-RelWithDebInfo-02df7eaf28de54b6a5b3.json",
+					"name" : "react_render_debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "react_render_graphics::@5e554b9a9deaaa2659f8",
+					"jsonFile" : "target-react_render_graphics-RelWithDebInfo-5e2ede02a836cf55482f.json",
+					"name" : "react_render_graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "react_render_imagemanager::@7347e6ca8d73264511ed",
+					"jsonFile" : "target-react_render_imagemanager-RelWithDebInfo-d606cfe5d6a71fc32813.json",
+					"name" : "react_render_imagemanager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "react_render_leakchecker::@2fe6be4cefa85034babc",
+					"jsonFile" : "target-react_render_leakchecker-RelWithDebInfo-5f2bad51330aaa7de1e7.json",
+					"name" : "react_render_leakchecker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "react_render_mapbuffer::@71d13ad7885866cf0c0a",
+					"jsonFile" : "target-react_render_mapbuffer-RelWithDebInfo-efd8af29da57189ce911.json",
+					"name" : "react_render_mapbuffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "react_render_mounting::@42a44305fc01e2177d4e",
+					"jsonFile" : "target-react_render_mounting-RelWithDebInfo-b6047f4308877ff9b21f.json",
+					"name" : "react_render_mounting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "react_render_runtimescheduler::@74358a4b813c1e55ee1e",
+					"jsonFile" : "target-react_render_runtimescheduler-RelWithDebInfo-04c4b86804e27fc3cd4a.json",
+					"name" : "react_render_runtimescheduler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "react_render_scheduler::@9c0dd9943232f65759bc",
+					"jsonFile" : "target-react_render_scheduler-RelWithDebInfo-d314918e8adaef8fa3ef.json",
+					"name" : "react_render_scheduler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "react_render_telemetry::@5b0ad4d3eab8858a6ee0",
+					"jsonFile" : "target-react_render_telemetry-RelWithDebInfo-7fb8feba9c5170bfaabe.json",
+					"name" : "react_render_telemetry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "react_render_templateprocessor::@e983263c5d0567e49824",
+					"jsonFile" : "target-react_render_templateprocessor-RelWithDebInfo-ff739a5e5317346353f7.json",
+					"name" : "react_render_templateprocessor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "react_render_textlayoutmanager::@99288bec9602c3b8fdbe",
+					"jsonFile" : "target-react_render_textlayoutmanager-RelWithDebInfo-c69c42f27b4aa718a7cf.json",
+					"name" : "react_render_textlayoutmanager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "react_render_uimanager::@898ffd1545b8f3d13fe6",
+					"jsonFile" : "target-react_render_uimanager-RelWithDebInfo-b76f9bf2509c4c5d9b96.json",
+					"name" : "react_render_uimanager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "react_utils::@dc75c2d082a84176b3f7",
+					"jsonFile" : "target-react_utils-RelWithDebInfo-caa2bb9bce38993d82ef.json",
+					"name" : "react_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "reactnative::@80ca67e65689c53329a3",
+					"jsonFile" : "target-reactnative-RelWithDebInfo-6ba24be104894ed8c549.json",
+					"name" : "reactnative",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "reactnativeblob::@03995e19184f544aaf28",
+					"jsonFile" : "target-reactnativeblob-RelWithDebInfo-2e9150a881e5ab77ae90.json",
+					"name" : "reactnativeblob",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "reactnativejni::@e6d31af2d358f1463bd6",
+					"jsonFile" : "target-reactnativejni-RelWithDebInfo-7bf8c4e12e87d621af15.json",
+					"name" : "reactnativejni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "reactperflogger::@b36070f98987dde1d735",
+					"jsonFile" : "target-reactperflogger-RelWithDebInfo-19f258ca491f747e1ed8.json",
+					"name" : "reactperflogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "reactperfloggerjni::@7df27f2b5ddfdfd762ce",
+					"jsonFile" : "target-reactperfloggerjni-RelWithDebInfo-b8ff9d83c9f48a4556ff.json",
+					"name" : "reactperfloggerjni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "rrc_image::@d1c351eed5954a21ada6",
+					"jsonFile" : "target-rrc_image-RelWithDebInfo-48e0a37197e527228a33.json",
+					"name" : "rrc_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "rrc_modal::@24e699fa40864659ffde",
+					"jsonFile" : "target-rrc_modal-RelWithDebInfo-cbe84867f7a846647153.json",
+					"name" : "rrc_modal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "rrc_native::@cd727b4ce1db91f3e792",
+					"jsonFile" : "target-rrc_native-RelWithDebInfo-92fb2996be14cf9efca5.json",
+					"name" : "rrc_native",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "rrc_progressbar::@0d9ab5df9144645ac00a",
+					"jsonFile" : "target-rrc_progressbar-RelWithDebInfo-699667eeb7da8794ae6d.json",
+					"name" : "rrc_progressbar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "rrc_root::@8fa4d89ae05e3366a380",
+					"jsonFile" : "target-rrc_root-RelWithDebInfo-3f66bdb9ac63183fd0e1.json",
+					"name" : "rrc_root",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "rrc_scrollview::@e1f883649d6c4d84421b",
+					"jsonFile" : "target-rrc_scrollview-RelWithDebInfo-7bbc9336a03259cf3925.json",
+					"name" : "rrc_scrollview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "rrc_slider::@45de1b90e7547d63515f",
+					"jsonFile" : "target-rrc_slider-RelWithDebInfo-b684a622547a8628d78b.json",
+					"name" : "rrc_slider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "rrc_switch::@083ddfbd34fc1243c81f",
+					"jsonFile" : "target-rrc_switch-RelWithDebInfo-262f553b33caafc9ec8b.json",
+					"name" : "rrc_switch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "rrc_text::@25b91a4a25bb0fe1a0a6",
+					"jsonFile" : "target-rrc_text-RelWithDebInfo-c6d1c166bbc4084e0cd0.json",
+					"name" : "rrc_text",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "rrc_textinput::@88be68eb3e3c840a4ebe",
+					"jsonFile" : "target-rrc_textinput-RelWithDebInfo-797d76e668bffdeacbc2.json",
+					"name" : "rrc_textinput",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "rrc_unimplementedview::@f8aa068f148d71998cbe",
+					"jsonFile" : "target-rrc_unimplementedview-RelWithDebInfo-961985745f8922a2d34f.json",
+					"name" : "rrc_unimplementedview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "rrc_view::@b7ca99272d656fe0b835",
+					"jsonFile" : "target-rrc_view-RelWithDebInfo-cdd7d4fd8814f6f97024.json",
+					"name" : "rrc_view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "runtimeexecutor::@1b008ade91d1fd241fb9",
+					"jsonFile" : "target-runtimeexecutor-RelWithDebInfo-8200e06b6cf96aea578c.json",
+					"name" : "runtimeexecutor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "turbomodulejsijni::@ffcb52844f4d2ac7d621",
+					"jsonFile" : "target-turbomodulejsijni-RelWithDebInfo-7bb4bf02059581afb5b5.json",
+					"name" : "turbomodulejsijni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "uimanagerjni::@1a68208280a6731069bf",
+					"jsonFile" : "target-uimanagerjni-RelWithDebInfo-34b8db72979a813f57e5.json",
+					"name" : "uimanagerjni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "yoga::@5ee362515e6ab682f516",
+					"jsonFile" : "target-yoga-RelWithDebInfo-aff4df35eadf2c29aeab.json",
+					"name" : "yoga",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "yogacore::@6d08bb98adf8b1c5f673",
+					"jsonFile" : "target-yogacore-RelWithDebInfo-f7e36810ad849e80472e.json",
+					"name" : "yogacore",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/pwd/ReactAndroid/.cxx/RelWithDebInfo/1pt1g583/x86",
+		"source" : "/pwd/ReactAndroid/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

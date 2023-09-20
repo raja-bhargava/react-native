@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ReactAndroid/src/main/jni/first-party/yogajni",
+		"source" : "first-party/yogajni"
+	}
+}

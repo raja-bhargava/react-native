@@ -1,0 +1,828 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_newarchdefaults.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"react/newarchdefaults/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c++1y"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-std=c++17"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DLOG_TAG=\\\"ReactNative\\\""
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_NO_CONFIG=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_HAVE_CLOCK_GETTIME=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_USE_LIBCPP=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_MOBILE=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_HAVE_RECVMMSG=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_HAVE_PTHREAD=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DFOLLY_HAVE_XSI_STRERROR_R=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "react_newarchdefaults_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/newarchdefaults/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/fabric"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/butter/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/glog/exported"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/cxxcomponents/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/fb/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/double-conversion/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/boost/boost_1_76_0"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/fmt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/fbgloginit/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/jsi"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/mapbuffer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/yogajni/jni"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/yoga/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/generated/source/codegen/jni/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/build/generated/source/codegen/jni/react/renderer/components/rncore"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/nativemodule/core"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/nativemodule/core/platform/android"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/reactperflogger/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/jni/../.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/turbomodule"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/runtimeexecutor/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/callinvoker/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/reactperflogger"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/logger/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/graphics/platform/cxx"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/imagemanager/platform/cxx"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/textlayoutmanager/platform/android"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/components/progressbar/android"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/components/slider/platform/android"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/components/switch/androidswitch"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/pwd/ReactCommon/react/renderer/components/textinput/androidtextinput"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "glog::@9a2a1916af857b849fa7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "boost::@c9c78bf96126e402c328"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "double-conversion::@56d90e63a91ea9f1c25f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@358f71f0d6c25bf39136"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "folly_runtime::@53c70990978ba6fc11be"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "yogacore::@6d08bb98adf8b1c5f673"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "runtimeexecutor::@1b008ade91d1fd241fb9"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "reactperflogger::@b36070f98987dde1d735"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "logger::@d962460f6100b31450ce"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "reactnative::@80ca67e65689c53329a3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "jsi::@ea6d4562f26f4f21d2c1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "jsinspector::@27fc2609ebe92d58b0f6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_runtimescheduler::@74358a4b813c1e55ee1e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_debug::@35fb7b38a44fcba5aa74"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_config::@38d90fd5139e790db923"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_animations::@e8cce95a0a051ce59ab6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_attributedstring::@7983c1f56566669c0bef"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_componentregistry::@95c3d2d72882d7785325"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_mounting::@42a44305fc01e2177d4e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_scheduler::@9c0dd9943232f65759bc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_telemetry::@5b0ad4d3eab8858a6ee0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_templateprocessor::@e983263c5d0567e49824"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_uimanager::@898ffd1545b8f3d13fe6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_core::@b04cf7b5469b949f4f0f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_graphics::@5e554b9a9deaaa2659f8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_debug::@148e52b719f25cff4b8d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_imagemanager::@7347e6ca8d73264511ed"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_view::@b7ca99272d656fe0b835"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_switch::@083ddfbd34fc1243c81f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_textinput::@88be68eb3e3c840a4ebe"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_progressbar::@0d9ab5df9144645ac00a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_slider::@45de1b90e7547d63515f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_root::@8fa4d89ae05e3366a380"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_image::@d1c351eed5954a21ada6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_text::@25b91a4a25bb0fe1a0a6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_unimplementedview::@f8aa068f148d71998cbe"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_modal::@24e699fa40864659ffde"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rrc_scrollview::@e1f883649d6c4d84421b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_leakchecker::@2fe6be4cefa85034babc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_textlayoutmanager::@99288bec9602c3b8fdbe"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_utils::@dc75c2d082a84176b3f7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_bridging::@052818728629aa4c5c0b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_render_mapbuffer::@71d13ad7885866cf0c0a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_nativemodule_core::@24ffb38f6c40409d74b5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_codegen_rncore::@c68905ef9ff33c734583"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fb::@704184832e6216ff67de"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "glog_init::@3e08e23b497523762ccf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "yoga::@5ee362515e6ab682f516"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cxxcomponents::@5f8e920b31f91c6c7add"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "reactnativejni::@e6d31af2d358f1463bd6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "reactperfloggerjni::@7df27f2b5ddfdfd762ce"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "callinvokerholder::@ffcb52844f4d2ac7d621"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "turbomodulejsijni::@ffcb52844f4d2ac7d621"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mapbufferjni::@8ca758db982e8c687423"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fabricjni::@724de93f9b5fbfb87c87"
+		}
+	],
+	"id" : "react_newarchdefaults::@5009e6eec912eac07dcd",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--build-id",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libfabricjni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libcxxcomponents.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_animations.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_scheduler.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_templateprocessor.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/react/renderer/components/modal/librrc_modal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/react/renderer/components/progressbar/librrc_progressbar.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_scrollview.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/react/renderer/components/slider/librrc_slider.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/react/renderer/components/switch/librrc_switch.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_codegen_rncore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libturbomodulejsijni.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_nativemodule_core.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/react/bridging/libreact_bridging.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_textinput.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_image.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_imagemanager.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_text.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_textlayoutmanager.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libmapbufferjni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_attributedstring.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreactnativejni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactAndroid/src/main/jni/react/turbomodule/libcallinvokerholder.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreactperfloggerjni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/cxxreact/libreactnative.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/reactperflogger/libreactperflogger.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libjsinspector.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_uimanager.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_componentregistry.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_mounting.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_telemetry.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_runtimescheduler.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_config.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_root.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_leakchecker.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libruntimeexecutor.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_unimplementedview.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/librrc_view.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_core.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libjsi.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_mapbuffer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_utils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libglog_init.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_render_graphics.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libreact_debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libfolly_runtime.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/double-conversion/libdouble-conversion.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/boost/libboost.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/fmt/libfmt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/liblogger.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libglog.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libyoga.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/Debug/4g5u3035/obj/x86/libfb.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ReactCommon/yoga/libyogacore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "react_newarchdefaults",
+	"nameOnDisk" : "libreact_newarchdefaults.so",
+	"paths" : 
+	{
+		"build" : "ReactAndroid/src/main/jni/react/newarchdefaults",
+		"source" : "react/newarchdefaults"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "react/newarchdefaults/DefaultComponentsRegistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "react/newarchdefaults/DefaultTurboModuleManagerDelegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "react/newarchdefaults/OnLoad.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,539 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "build/third-party-ndk/folly/libfolly_futures.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/pwd/ReactAndroid/build/third-party-ndk/folly/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-std=c++1y"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_NO_CONFIG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_CLOCK_GETTIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_USE_LIBCPP=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_MOBILE=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_RECVMMSG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_PTHREAD=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_XSI_STRERROR_R=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/glog/exported"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/double-conversion/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/boost/boost_1_76_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/libevent/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glog::@9a2a1916af857b849fa7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost::@c9c78bf96126e402c328"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "double-conversion::@56d90e63a91ea9f1c25f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@358f71f0d6c25bf39136"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "event::@225e913541f4510aca08"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "folly_runtime::@53c70990978ba6fc11be"
+		}
+	],
+	"id" : "folly_futures::@53c70990978ba6fc11be",
+	"name" : "folly_futures",
+	"nameOnDisk" : "libfolly_futures.a",
+	"paths" : 
+	{
+		"build" : "build/third-party-ndk/folly",
+		"source" : "/pwd/ReactAndroid/build/third-party-ndk/folly"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/ExceptionWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/ExceptionString.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/Executor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/Singleton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/Try.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/concurrency/CacheLocality.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/AsyncTrace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/AtFork.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/MemoryIdler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/SingletonStackTrace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/StaticSingletonManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/detail/ThreadLocalDetail.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/fibers/Baton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/fibers/FiberManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/fibers/Fiber.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/fibers/GuardPageAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/futures/detail/Core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/futures/Future.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/futures/ThreadWheelTimekeeper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/executors/ExecutorWithPriority.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/executors/InlineExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/executors/TimedDrivableExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/executors/QueuedImmediateExecutor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/AsyncTimeout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/EventBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/EventBaseBackendBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/EventBaseLocal.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/EventHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/HHWheelTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/Request.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/TimeoutManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/io/async/VirtualEventBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/lang/Exception.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/memory/MallctlHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/portability/SysMembarrier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/synchronization/AsymmetricMemoryBarrier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/synchronization/Hazptr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/synchronization/WaitOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/synchronization/detail/Sleeper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/folly/system/Pid.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

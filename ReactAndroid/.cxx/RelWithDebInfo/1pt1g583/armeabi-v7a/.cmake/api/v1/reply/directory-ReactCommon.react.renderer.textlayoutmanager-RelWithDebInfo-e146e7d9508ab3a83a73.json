@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ReactCommon/react/renderer/textlayoutmanager",
+		"source" : "/pwd/ReactCommon/react/renderer/textlayoutmanager"
+	}
+}

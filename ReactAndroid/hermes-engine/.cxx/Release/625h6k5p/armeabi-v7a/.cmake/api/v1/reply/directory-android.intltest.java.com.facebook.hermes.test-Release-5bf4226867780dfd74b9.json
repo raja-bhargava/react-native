@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "android/intltest/java/com/facebook/hermes/test",
+		"source" : "android/intltest/java/com/facebook/hermes/test"
+	}
+}

@@ -1,0 +1,456 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "ReactCommon/react/renderer/components/switch/librrc_switch.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/pwd/ReactCommon/react/renderer/components/switch/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-std=c++1y"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DLOG_TAG=\\\"Fabric\\\""
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c++17"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-gnu-zero-variadic-macro-arguments"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_NO_CONFIG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_CLOCK_GETTIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_USE_LIBCPP=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_MOBILE=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_RECVMMSG=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_PTHREAD=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DFOLLY_HAVE_XSI_STRERROR_R=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/pwd/ReactCommon/react/renderer/components/switch/androidswitch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/glog/exported"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/folly/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/double-conversion/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/boost/boost_1_76_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/third-party-ndk/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/fbgloginit/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/generated/source/codegen/jni/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/build/generated/source/codegen/jni/react/renderer/components/rncore"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/jsi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/react/nativemodule/core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/react/nativemodule/core/platform/android"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/reactperflogger/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/jni/../.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/turbomodule"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/fb/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/runtimeexecutor/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/callinvoker/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/react/reactperflogger"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/logger/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/react/renderer/graphics/platform/cxx"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactAndroid/src/main/jni/first-party/yogajni/jni"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/yoga/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/react/renderer/imagemanager/platform/cxx"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/pwd/ReactCommon/butter/."
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glog::@9a2a1916af857b849fa7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boost::@c9c78bf96126e402c328"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "double-conversion::@56d90e63a91ea9f1c25f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@358f71f0d6c25bf39136"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "folly_runtime::@53c70990978ba6fc11be"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "yogacore::@6d08bb98adf8b1c5f673"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "runtimeexecutor::@1b008ade91d1fd241fb9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "reactperflogger::@b36070f98987dde1d735"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "logger::@d962460f6100b31450ce"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "reactnative::@80ca67e65689c53329a3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "jsi::@ea6d4562f26f4f21d2c1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "jsinspector::@27fc2609ebe92d58b0f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_runtimescheduler::@74358a4b813c1e55ee1e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_debug::@35fb7b38a44fcba5aa74"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_config::@38d90fd5139e790db923"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_componentregistry::@95c3d2d72882d7785325"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_mounting::@42a44305fc01e2177d4e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_telemetry::@5b0ad4d3eab8858a6ee0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_uimanager::@898ffd1545b8f3d13fe6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_core::@b04cf7b5469b949f4f0f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_graphics::@5e554b9a9deaaa2659f8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_debug::@148e52b719f25cff4b8d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_imagemanager::@7347e6ca8d73264511ed"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rrc_view::@b7ca99272d656fe0b835"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rrc_root::@8fa4d89ae05e3366a380"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rrc_image::@d1c351eed5954a21ada6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_leakchecker::@2fe6be4cefa85034babc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_utils::@dc75c2d082a84176b3f7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_bridging::@052818728629aa4c5c0b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_render_mapbuffer::@71d13ad7885866cf0c0a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_nativemodule_core::@24ffb38f6c40409d74b5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "react_codegen_rncore::@c68905ef9ff33c734583"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fb::@704184832e6216ff67de"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glog_init::@3e08e23b497523762ccf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "yoga::@5ee362515e6ab682f516"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "reactnativejni::@e6d31af2d358f1463bd6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "reactperfloggerjni::@7df27f2b5ddfdfd762ce"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "callinvokerholder::@ffcb52844f4d2ac7d621"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "turbomodulejsijni::@ffcb52844f4d2ac7d621"
+		}
+	],
+	"id" : "rrc_switch::@083ddfbd34fc1243c81f",
+	"name" : "rrc_switch",
+	"nameOnDisk" : "librrc_switch.a",
+	"paths" : 
+	{
+		"build" : "ReactCommon/react/renderer/components/switch",
+		"source" : "/pwd/ReactCommon/react/renderer/components/switch"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/react/renderer/components/switch/androidswitch/react/renderer/components/androidswitch/AndroidSwitchMeasurementsManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/pwd/ReactCommon/react/renderer/components/switch/androidswitch/react/renderer/components/androidswitch/AndroidSwitchShadowNode.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

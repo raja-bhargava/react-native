@@ -1,0 +1,704 @@
+{
+  "buildFiles": [
+    "/pwd/ReactCommon/jsi/jsi/CMakeLists.txt",
+    "/pwd/sdks/hermes/API/CMakeLists.txt",
+    "/pwd/sdks/hermes/API/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/android/intltest/java/com/facebook/hermes/test/CMakeLists.txt",
+    "/pwd/sdks/hermes/cmake/modules/Hermes.cmake",
+    "/pwd/sdks/hermes/cmake/modules/Lit.cmake",
+    "/pwd/sdks/hermes/external/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/dtoa/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/cmake/config-ix.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckAtomic.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckCompilerVersion.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckLinkerFlag.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/DetermineGCCCompatible.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/FindLibpfm.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/GetHostTriple.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/HandleLLVMStdlib.cmake",
+    "/pwd/sdks/hermes/external/llvh/include/llvh/Config/config.h.cmake",
+    "/pwd/sdks/hermes/external/llvh/include/llvh/Config/llvm-config.h.cmake",
+    "/pwd/sdks/hermes/external/llvh/lib/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/lib/Demangle/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/lib/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/FileCheck/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/count/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/not/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/unittest/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/unittest/UnitTestMain/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/zip/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/ADT/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/AST/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/AST2JS/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/BCGen/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/BCGen/HBC/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/CompilerDriver/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/ConsoleHost/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/DependencyExtractor/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/FlowParser/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/FrontEndDefs/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Inst/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/InternalBytecode/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/Intl/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/Unicode/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Regex/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/SourceMap/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/VM/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/VM/Instrumentation/CMakeLists.txt",
+    "/pwd/sdks/hermes/public/CMakeLists.txt",
+    "/pwd/sdks/hermes/public/hermes/Public/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/dependency-extractor/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/emhermesc/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/fuzzilli/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/libfuzzer/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-attribute/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-deltaprep/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-diff/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbcdump/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hdb/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermes-parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermesc/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hvm-bench/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hvm/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/jsi/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/node-hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/synth/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/ADT/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/API/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/AST/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/BCGen/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/IR/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Optimizer/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/PlatformIntl/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/PlatformUnicode/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/VMRuntime/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/VMRuntime/Instrumentation/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/dtoa/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/tools/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/tools/rustgen/CMakeLists.txt",
+    "/pwd/sdks/hermes/utils/hermes-lit/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/android/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/android/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "APILeanTests::@99295c3b04dc557b3ca9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "APILeanTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/APILeanTests",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "APITests::@99295c3b04dc557b3ca9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "APITests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/APITests",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "BCP47ParserTests::@5e8682585671f5961128": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "BCP47ParserTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/BCP47ParserTests",
+      "runtimeFiles": []
+    },
+    "DtoaTests::@e848e7dcf814c6c20058": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "DtoaTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/DtoaTests",
+      "runtimeFiles": []
+    },
+    "FileCheck::@1202de59ec449083a97a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "FileCheck",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/FileCheck",
+      "runtimeFiles": []
+    },
+    "HermesADTTests::@fc696c7377ecb00ca400": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesADTTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesADTTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesASTTests::@145d41420fcd081cfdfe": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesASTTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesASTTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesBCGenTests::@901ecca922cd9a2d40d2": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesBCGenTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesBCGenTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesIRTests::@f38932fe4314186c7e4b": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesIRTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesIRTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesInstrumentationTests::@f53ceb83440e871bd2af": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesInstrumentationTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesInstrumentationTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesOptimizerTests::@78c0471350bfe1f83251": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesOptimizerTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesOptimizerTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesParserTests::@784c85e4015ef5eb8c61": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesParserTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesParserTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesSupportTests::@85cc75d0e16dacc65c5b": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesSupportTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesSupportTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "HermesUnitTests::@42060a6318a19e21b55a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesUnitTests"
+    },
+    "HermesVMRuntimeTests::@5e2a4019d4d1b21caf38": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "HermesVMRuntimeTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/HermesVMRuntimeTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "LLVHDemangle::@93aa1362766ea797fa78": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "LLVHDemangle",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/llvh/lib/Demangle/libLLVHDemangle.a"
+    },
+    "LLVHSupport::@b80da6125add12f6486c": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "LLVHSupport",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/llvh/lib/Support/libLLVHSupport.a"
+    },
+    "PlatformUnicodeTests::@8c6325660e00f9003b98": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "PlatformUnicodeTests",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/PlatformUnicodeTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "SegmentTestCompile::@99295c3b04dc557b3ca9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "SegmentTestCompile",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/unittests/API/libSegmentTestCompile.a"
+    },
+    "check-hermes::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "check-hermes"
+    },
+    "compileJS::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "compileJS",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libcompileJS.a"
+    },
+    "count::@c4b52d1792a63a479359": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "count",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/count",
+      "runtimeFiles": []
+    },
+    "dependency-extractor::@81efae93a7de6b827c53": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "dependency-extractor",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/dependency-extractor",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "dtoa::@b04550a9eb17fa5e1190": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "dtoa",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/dtoa/libdtoa.a"
+    },
+    "emdependency-extractor::@81efae93a7de6b827c53": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "emdependency-extractor",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/emdependency-extractor",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "emhermesc::@2e99e340e715ef5e469d": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "emhermesc",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/emhermesc",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "gtest::@3938725986c3ac148c4a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "gtest",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/llvh/utils/unittest/libgtest.a"
+    },
+    "gtest_main::@89b98dbd41cf44e21fab": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "gtest_main",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/llvh/utils/unittest/UnitTestMain/libgtest_main.a"
+    },
+    "hbc-attribute::@88e9e66263fd103d5611": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hbc-attribute",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hbc-attribute",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hbc-deltaprep::@c0348d84e2d5bc8f1ec0": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hbc-deltaprep",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hbc-deltaprep",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hbc-diff::@74437a4860db887c3a0c": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hbc-diff",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hbc-diff",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hbcdump::@9d196a94b0e592dbabd5": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hbcdump",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hbcdump",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hdb::@2aee12a6b71972d8c645": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hdb",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hdb",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hermes::@a90f98308eb752652d48": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermes",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hermes",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hermes-jsi::@89989e98ef053e4d9c12": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermes-jsi",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hermes-jsi",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hermesADT::@daa58699490d2b874fa3": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesADT",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/ADT/libhermesADT.a"
+    },
+    "hermesAST::@c80eb5e9fa4fb9ab07bc": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesAST",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/AST/libhermesAST.a"
+    },
+    "hermesAST2JS::@91fa7b8b33e2864b70db": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesAST2JS",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/AST2JS/libhermesAST2JS.a"
+    },
+    "hermesBCP47Parser::@fb1740ad0fc9dafc4851": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesBCP47Parser",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Platform/Intl/libhermesBCP47Parser.a"
+    },
+    "hermesBackend::@13c6f153e1484c006a38": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesBackend",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/BCGen/libhermesBackend.a"
+    },
+    "hermesCompilerDriver::@2af5c608eba6b6e60c3a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesCompilerDriver",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/CompilerDriver/libhermesCompilerDriver.a"
+    },
+    "hermesConsoleHost::@ebd589224c0331270a5f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesConsoleHost",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/ConsoleHost/libhermesConsoleHost.a"
+    },
+    "hermesDependencyExtractor::@9d80097abedc29be7379": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesDependencyExtractor",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/DependencyExtractor/libhermesDependencyExtractor.a"
+    },
+    "hermesFlowParser::@c328a2242425bf663f64": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesFlowParser",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/FlowParser/libhermesFlowParser.a"
+    },
+    "hermesFrontEndDefs::@04867ac13794adc29ad3": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesFrontEndDefs",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/FrontEndDefs/libhermesFrontEndDefs.a"
+    },
+    "hermesFrontend::@306ed2d68c6501e8728f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesFrontend",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/libhermesFrontend.a"
+    },
+    "hermesHBCBackend::@aa3ca05a745a6efa39e1": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesHBCBackend",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/BCGen/HBC/libhermesHBCBackend.a"
+    },
+    "hermesHBCBackendLean::@aa3ca05a745a6efa39e1": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesHBCBackendLean",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/BCGen/HBC/libhermesHBCBackendLean.a"
+    },
+    "hermesInst::@7a6b9821eab8f42bc18a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesInst",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Inst/libhermesInst.a"
+    },
+    "hermesInstrumentation::@832b4788e103e3d34067": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesInstrumentation",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/VM/Instrumentation/libhermesInstrumentation.a"
+    },
+    "hermesInternalBytecode::@af930aa608d168689b75": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesInternalBytecode",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/InternalBytecode/libhermesInternalBytecode.a"
+    },
+    "hermesOptimizer::@306ed2d68c6501e8728f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesOptimizer",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/libhermesOptimizer.a"
+    },
+    "hermesParser::@72b88d9fff5e5e02bfc5": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesParser",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Parser/libhermesParser.a"
+    },
+    "hermesPlatform::@5b2686383c00f17c3d04": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesPlatform",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Platform/libhermesPlatform.a"
+    },
+    "hermesPlatformIntl::@fb1740ad0fc9dafc4851": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesPlatformIntl",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Platform/Intl/libhermesPlatformIntl.a"
+    },
+    "hermesPlatformUnicode::@27ee82dcdeb563be71f5": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesPlatformUnicode",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Platform/Unicode/libhermesPlatformUnicode.a"
+    },
+    "hermesPublic::@6c097580ec181eeb5a45": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesPublic",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/public/hermes/Public/libhermesPublic.a"
+    },
+    "hermesRegex::@e0a11551843f31502045": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesRegex",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Regex/libhermesRegex.a"
+    },
+    "hermesSourceMap::@316b9e70714df18b037c": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesSourceMap",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/SourceMap/libhermesSourceMap.a"
+    },
+    "hermesSupport::@928d1708d80fe1f55e59": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesSupport",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/Support/libhermesSupport.a"
+    },
+    "hermesVMRuntime::@3c9a40ebc360cf62adfe": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesVMRuntime",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/VM/libhermesVMRuntime.a"
+    },
+    "hermesVMRuntimeLean::@3c9a40ebc360cf62adfe": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesVMRuntimeLean",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/lib/VM/libhermesVMRuntimeLean.a"
+    },
+    "hermesapi::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesapi",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libhermesapi.a"
+    },
+    "hermesapiLean::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesapiLean",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libhermesapiLean.a"
+    },
+    "hermesc::@df4627a864cded2bdc2f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hermesc",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hermesc",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "hvm::@2de61afce701a63d3b4d": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "hvm",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/hvm",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "interp-dispatch-bench::@d33ee538ebdbd8df39ee": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "interp-dispatch-bench",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/interp-dispatch-bench",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "jsi::@41a3a44e36ed5102a161": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "jsi",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+      "runtimeFiles": []
+    },
+    "jsijni::@d621c16d68fac91d50c9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "jsijni",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsijni.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libhermes.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "jsijniepi::@d621c16d68fac91d50c9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "jsijniepi",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsijniepi.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libhermes.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "libhermes::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "libhermes",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libhermes.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "not::@138c319a4208b0b28b1b": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "not",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/not",
+      "runtimeFiles": []
+    },
+    "rustgen::@fef69c6cdd1e3cfa902e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "rustgen",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/rustgen",
+      "runtimeFiles": []
+    },
+    "synth::@02277957d69e6a873a0c": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "synth",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/bin/synth",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/armeabi-v7a/libjsi.so"
+      ]
+    },
+    "synthTrace::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "synthTrace",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libsynthTrace.a"
+    },
+    "synthTraceParser::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "synthTraceParser",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libsynthTraceParser.a"
+    },
+    "timerStats::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "timerStats",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libtimerStats.a"
+    },
+    "traceInterpreter::@917caac658e8b5404db8": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "traceInterpreter",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/API/hermes/libtraceInterpreter.a"
+    },
+    "update-lit::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "update-lit"
+    },
+    "zip::@54eb83aa268fb5490d05": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "zip",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/armeabi-v7a/external/zip/libzip.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cc"
+  ]
+}

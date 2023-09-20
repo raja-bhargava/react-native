@@ -1,0 +1,406 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"add_unittest",
+			"add_hermes_unittest"
+		],
+		"files" : 
+		[
+			"unittests/CMakeLists.txt",
+			"cmake/modules/Lit.cmake",
+			"unittests/AST/CMakeLists.txt",
+			"unittests/IR/CMakeLists.txt",
+			"unittests/BCGen/CMakeLists.txt",
+			"unittests/Parser/CMakeLists.txt",
+			"unittests/VMRuntime/CMakeLists.txt",
+			"unittests/VMRuntime/Instrumentation/CMakeLists.txt",
+			"unittests/Support/CMakeLists.txt",
+			"unittests/dtoa/CMakeLists.txt",
+			"unittests/PlatformIntl/CMakeLists.txt",
+			"unittests/PlatformUnicode/CMakeLists.txt",
+			"unittests/API/CMakeLists.txt",
+			"unittests/ADT/CMakeLists.txt",
+			"unittests/Optimizer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 19,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 12
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 14,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 79,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 20
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 11,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 24
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 28
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 10,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 32
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 6,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 36
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 11,
+				"parent" : 38
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 40
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 33,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 44
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 37,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 47
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 15,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 50
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 51
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 10,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 54
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 55
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "HermesASTTests::@145d41420fcd081cfdfe"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "HermesIRTests::@f38932fe4314186c7e4b"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "HermesBCGenTests::@901ecca922cd9a2d40d2"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "HermesParserTests::@784c85e4015ef5eb8c61"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "HermesVMRuntimeTests::@5e2a4019d4d1b21caf38"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "HermesInstrumentationTests::@f53ceb83440e871bd2af"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "HermesSupportTests::@85cc75d0e16dacc65c5b"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "DtoaTests::@e848e7dcf814c6c20058"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "BCP47ParserTests::@5e8682585671f5961128"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "PlatformUnicodeTests::@8c6325660e00f9003b98"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "APITests::@99295c3b04dc557b3ca9"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "APILeanTests::@99295c3b04dc557b3ca9"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "HermesADTTests::@fc696c7377ecb00ca400"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "HermesOptimizerTests::@78c0471350bfe1f83251"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tests"
+	},
+	"id" : "HermesUnitTests::@42060a6318a19e21b55a",
+	"name" : "HermesUnitTests",
+	"paths" : 
+	{
+		"build" : "unittests",
+		"source" : "unittests"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

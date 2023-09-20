@@ -1,0 +1,153 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/pwd/ReactAndroid/build/intermediates/cxx/RelWithDebInfo/1pt1g583/obj/arm64-v8a/libruntimeexecutor.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/pwd/ReactCommon/runtimeexecutor/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "glog::@9a2a1916af857b849fa7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "boost::@c9c78bf96126e402c328"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "double-conversion::@56d90e63a91ea9f1c25f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@358f71f0d6c25bf39136"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "folly_runtime::@53c70990978ba6fc11be"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "jsi::@ea6d4562f26f4f21d2c1"
+		}
+	],
+	"id" : "runtimeexecutor::@1b008ade91d1fd241fb9",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--build-id",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/RelWithDebInfo/1pt1g583/obj/arm64-v8a/libjsi.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/RelWithDebInfo/1pt1g583/obj/arm64-v8a/libfolly_runtime.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/double-conversion/libdouble-conversion.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/boost/libboost.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "build/third-party-ndk/fmt/libfmt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/pwd/ReactAndroid/build/intermediates/cxx/RelWithDebInfo/1pt1g583/obj/arm64-v8a/libglog.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "runtimeexecutor",
+	"nameOnDisk" : "libruntimeexecutor.so",
+	"paths" : 
+	{
+		"build" : "ReactCommon/runtimeexecutor",
+		"source" : "/pwd/ReactCommon/runtimeexecutor"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "/pwd/ReactCommon/runtimeexecutor/ReactCommon/RuntimeExecutor.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

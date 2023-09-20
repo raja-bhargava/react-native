@@ -1,0 +1,2024 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						11,
+						33,
+						35,
+						38,
+						40,
+						41,
+						44,
+						63,
+						64
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						19,
+						78
+					]
+				},
+				{
+					"build" : "external/llvh",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-external.llvh-MinSizeRel-5fae1834e6cdf35e207b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/llvh"
+				},
+				{
+					"build" : "external/llvh/lib",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-external.llvh.lib-MinSizeRel-42024befc3c3eae89be9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "external/llvh/lib"
+				},
+				{
+					"build" : "external/llvh/lib/Support",
+					"jsonFile" : "directory-external.llvh.lib.Support-MinSizeRel-2c010029d2d71323abaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "external/llvh/lib/Support",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "external/llvh/lib/Demangle",
+					"jsonFile" : "directory-external.llvh.lib.Demangle-MinSizeRel-bf7c425f845ab2c3fac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "external/llvh/lib/Demangle",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "external/llvh/utils/FileCheck",
+					"jsonFile" : "directory-external.llvh.utils.FileCheck-MinSizeRel-b31f38bbc505bfdcc2de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "external/llvh/utils/FileCheck",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "external/llvh/utils/not",
+					"jsonFile" : "directory-external.llvh.utils.not-MinSizeRel-12cd7e6cc23abb50e360.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "external/llvh/utils/not",
+					"targetIndexes" : 
+					[
+						71
+					]
+				},
+				{
+					"build" : "external/llvh/utils/count",
+					"jsonFile" : "directory-external.llvh.utils.count-MinSizeRel-70aa247985e0c7b05937.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "external/llvh/utils/count",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "external/llvh/utils/unittest",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-external.llvh.utils.unittest-MinSizeRel-09de572f9154056a724a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "external/llvh/utils/unittest",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "external/llvh/utils/unittest/UnitTestMain",
+					"jsonFile" : "directory-external.llvh.utils.unittest.UnitTestMain-MinSizeRel-d91ce42aede12e5c61c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "external/llvh/utils/unittest/UnitTestMain",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "utils/hermes-lit",
+					"jsonFile" : "directory-utils.hermes-lit-MinSizeRel-9b5b68c6023e3af858ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utils/hermes-lit"
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						12,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						27,
+						28,
+						29,
+						32
+					],
+					"jsonFile" : "directory-lib-MinSizeRel-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						45,
+						51
+					]
+				},
+				{
+					"build" : "lib/VM",
+					"childIndexes" : 
+					[
+						13
+					],
+					"jsonFile" : "directory-lib.VM-MinSizeRel-bbf91adda0475a1f0fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/VM",
+					"targetIndexes" : 
+					[
+						60,
+						61
+					]
+				},
+				{
+					"build" : "lib/VM/Instrumentation",
+					"jsonFile" : "directory-lib.VM.Instrumentation-MinSizeRel-6981686dfefb7443f860.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "lib/VM/Instrumentation",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "lib/Inst",
+					"jsonFile" : "directory-lib.Inst-MinSizeRel-c1862e14b0e74e772e07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/Inst",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "lib/FrontEndDefs",
+					"jsonFile" : "directory-lib.FrontEndDefs-MinSizeRel-f9cd54ae10bf29cfe47a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/FrontEndDefs",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "lib/CompilerDriver",
+					"jsonFile" : "directory-lib.CompilerDriver-MinSizeRel-fed47a522133d1935b51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/CompilerDriver",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "lib/DependencyExtractor",
+					"jsonFile" : "directory-lib.DependencyExtractor-MinSizeRel-f21fb6736de0764488c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/DependencyExtractor",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "lib/ADT",
+					"jsonFile" : "directory-lib.ADT-MinSizeRel-f04ba90a8a6f61372e8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/ADT",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "lib/AST",
+					"jsonFile" : "directory-lib.AST-MinSizeRel-4111c688e8ae507063f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/AST",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "lib/AST2JS",
+					"jsonFile" : "directory-lib.AST2JS-MinSizeRel-abf0b2fce81c73a33708.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/AST2JS",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "lib/FlowParser",
+					"jsonFile" : "directory-lib.FlowParser-MinSizeRel-3870851df7a29c13bd15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/FlowParser",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "lib/Parser",
+					"jsonFile" : "directory-lib.Parser-MinSizeRel-8de9945e46243c24a8fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/Parser",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "lib/SourceMap",
+					"jsonFile" : "directory-lib.SourceMap-MinSizeRel-29f9ddc857e076a11cca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/SourceMap",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "lib/Support",
+					"jsonFile" : "directory-lib.Support-MinSizeRel-8497bbd5ff8d6d22c3fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/Support",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "lib/BCGen",
+					"childIndexes" : 
+					[
+						26
+					],
+					"jsonFile" : "directory-lib.BCGen-MinSizeRel-32b5348b6f6a1672fcae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/BCGen",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "lib/BCGen/HBC",
+					"jsonFile" : "directory-lib.BCGen.HBC-MinSizeRel-dc58cb8e4a202cbdfc63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 0,
+					"source" : "lib/BCGen/HBC",
+					"targetIndexes" : 
+					[
+						46,
+						47
+					]
+				},
+				{
+					"build" : "lib/ConsoleHost",
+					"jsonFile" : "directory-lib.ConsoleHost-MinSizeRel-10ba3aeb4e57d16ae25a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/ConsoleHost",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "lib/Regex",
+					"jsonFile" : "directory-lib.Regex-MinSizeRel-af2c01c3a905b49bc242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/Regex",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "lib/Platform",
+					"childIndexes" : 
+					[
+						30,
+						31
+					],
+					"jsonFile" : "directory-lib.Platform-MinSizeRel-e36d02718bbde5435941.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/Platform",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "lib/Platform/Intl",
+					"jsonFile" : "directory-lib.Platform.Intl-MinSizeRel-a7ce4528fb71fba38394.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "lib/Platform/Intl",
+					"targetIndexes" : 
+					[
+						38,
+						54
+					]
+				},
+				{
+					"build" : "lib/Platform/Unicode",
+					"jsonFile" : "directory-lib.Platform.Unicode-MinSizeRel-9f6c328494a6aff40c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "lib/Platform/Unicode",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "lib/InternalBytecode",
+					"jsonFile" : "directory-lib.InternalBytecode-MinSizeRel-8d4938dae5b509f700f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "lib/InternalBytecode",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "public",
+					"childIndexes" : 
+					[
+						34
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-public-MinSizeRel-19429d0e8df7ee6e6599.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "public"
+				},
+				{
+					"build" : "public/hermes/Public",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-public.hermes.Public-MinSizeRel-53ab6f6873fd11ca8179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "public/hermes/Public",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "external",
+					"childIndexes" : 
+					[
+						36,
+						37
+					],
+					"jsonFile" : "directory-external-MinSizeRel-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external"
+				},
+				{
+					"build" : "external/dtoa",
+					"jsonFile" : "directory-external.dtoa-MinSizeRel-becb0e5fdc666c6aeec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "external/dtoa",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "external/zip",
+					"jsonFile" : "directory-external.zip-MinSizeRel-f2c32abb8a225d87d383.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "external/zip",
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"build" : "API",
+					"childIndexes" : 
+					[
+						39
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-API-MinSizeRel-d28642187494bd943bac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "API"
+				},
+				{
+					"build" : "API/hermes",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-API.hermes-MinSizeRel-96e5014ef67f1d335cfc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 38,
+					"projectIndex" : 0,
+					"source" : "API/hermes",
+					"targetIndexes" : 
+					[
+						20,
+						62,
+						63,
+						70,
+						74,
+						75,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "android/intltest/java/com/facebook/hermes/test",
+					"jsonFile" : "directory-android.intltest.java.com.facebook.hermes.test-MinSizeRel-5bf4226867780dfd74b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "android/intltest/java/com/facebook/hermes/test",
+					"targetIndexes" : 
+					[
+						68,
+						69
+					]
+				},
+				{
+					"build" : "unsupported",
+					"childIndexes" : 
+					[
+						42
+					],
+					"jsonFile" : "directory-unsupported-MinSizeRel-ff74d01df1316027fbeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unsupported"
+				},
+				{
+					"build" : "unsupported/tools",
+					"childIndexes" : 
+					[
+						43
+					],
+					"jsonFile" : "directory-unsupported.tools-MinSizeRel-2ce3634bb6a819243334.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 41,
+					"projectIndex" : 0,
+					"source" : "unsupported/tools"
+				},
+				{
+					"build" : "unsupported/tools/rustgen",
+					"jsonFile" : "directory-unsupported.tools.rustgen-MinSizeRel-39ebc163d9b6e666d4a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 42,
+					"projectIndex" : 0,
+					"source" : "unsupported/tools/rustgen",
+					"targetIndexes" : 
+					[
+						72
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						59,
+						60,
+						61,
+						62
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-MinSizeRel-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/hermes",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.hermes-MinSizeRel-ad2305715ffce10ef178.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hermes",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "tools/hermesc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.hermesc-MinSizeRel-2a04e367ce912f63d5d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hermesc",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "tools/hdb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.hdb-MinSizeRel-d958f1ece27c301cf35a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hdb",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "tools/hbcdump",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.hbcdump-MinSizeRel-24b7ffb8eaa7307a7724.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hbcdump",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "tools/hvm",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.hvm-MinSizeRel-0e79e9cfc4eb54bdcedf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hvm",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "tools/hvm-bench",
+					"jsonFile" : "directory-tools.hvm-bench-MinSizeRel-93590ce8bf27d12a8407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hvm-bench",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "tools/hbc-diff",
+					"jsonFile" : "directory-tools.hbc-diff-MinSizeRel-35b6a49e596c7374896a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hbc-diff",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "tools/hbc-deltaprep",
+					"jsonFile" : "directory-tools.hbc-deltaprep-MinSizeRel-d384e7a2618a1b655a92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hbc-deltaprep",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "tools/hbc-attribute",
+					"jsonFile" : "directory-tools.hbc-attribute-MinSizeRel-bd8faaa4ffa4459fb456.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hbc-attribute",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "tools/jsi",
+					"jsonFile" : "directory-tools.jsi-MinSizeRel-b7e08d5bf064911f217f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/jsi",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "tools/emhermesc",
+					"jsonFile" : "directory-tools.emhermesc-MinSizeRel-8ffe0e8daa7c10861a0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/emhermesc",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "tools/fuzzers",
+					"childIndexes" : 
+					[
+						57,
+						58
+					],
+					"jsonFile" : "directory-tools.fuzzers-MinSizeRel-81d3c798751ff2c87056.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/fuzzers"
+				},
+				{
+					"build" : "tools/fuzzers/libfuzzer",
+					"jsonFile" : "directory-tools.fuzzers.libfuzzer-MinSizeRel-0b34277b916b2986e5f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 56,
+					"projectIndex" : 0,
+					"source" : "tools/fuzzers/libfuzzer"
+				},
+				{
+					"build" : "tools/fuzzers/fuzzilli",
+					"jsonFile" : "directory-tools.fuzzers.fuzzilli-MinSizeRel-4e5ecc7a8605881447e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 56,
+					"projectIndex" : 0,
+					"source" : "tools/fuzzers/fuzzilli"
+				},
+				{
+					"build" : "tools/dependency-extractor",
+					"jsonFile" : "directory-tools.dependency-extractor-MinSizeRel-c0a95055061801cddc18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/dependency-extractor",
+					"targetIndexes" : 
+					[
+						22,
+						24
+					]
+				},
+				{
+					"build" : "tools/hermes-parser",
+					"jsonFile" : "directory-tools.hermes-parser-MinSizeRel-8be39511b7af370b5a6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/hermes-parser"
+				},
+				{
+					"build" : "tools/node-hermes",
+					"jsonFile" : "directory-tools.node-hermes-MinSizeRel-35cf8593702bd851639a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/node-hermes"
+				},
+				{
+					"build" : "tools/synth",
+					"jsonFile" : "directory-tools.synth-MinSizeRel-ac5707da7fcc13fe1d30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "tools/synth",
+					"targetIndexes" : 
+					[
+						73
+					]
+				},
+				{
+					"build" : "jsi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jsi-MinSizeRel-136c181d770d6d9df0aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/pwd/ReactCommon/jsi/jsi",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "unittests",
+					"childIndexes" : 
+					[
+						65,
+						66,
+						67,
+						68,
+						69,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77
+					],
+					"jsonFile" : "directory-unittests-MinSizeRel-e4a845b525cd9ca1c87f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unittests",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "unittests/AST",
+					"jsonFile" : "directory-unittests.AST-MinSizeRel-a3837a7e750f67d1b5e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/AST",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "unittests/IR",
+					"jsonFile" : "directory-unittests.IR-MinSizeRel-9a70000b98cde0a38cd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/IR",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "unittests/BCGen",
+					"jsonFile" : "directory-unittests.BCGen-MinSizeRel-82137f3c0d559f4b12a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/BCGen",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "unittests/Parser",
+					"jsonFile" : "directory-unittests.Parser-MinSizeRel-2cd534cd0d31c956c9a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/Parser",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "unittests/VMRuntime",
+					"childIndexes" : 
+					[
+						70
+					],
+					"jsonFile" : "directory-unittests.VMRuntime-MinSizeRel-b3326346dec331eaaa00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/VMRuntime",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "unittests/VMRuntime/Instrumentation",
+					"jsonFile" : "directory-unittests.VMRuntime.Instrumentation-MinSizeRel-f8cb7472813d66f888b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 69,
+					"projectIndex" : 0,
+					"source" : "unittests/VMRuntime/Instrumentation",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "unittests/Support",
+					"jsonFile" : "directory-unittests.Support-MinSizeRel-e7c4ac256b84539de95c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/Support",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "unittests/dtoa",
+					"jsonFile" : "directory-unittests.dtoa-MinSizeRel-4de310404fa6f475c497.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/dtoa",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "unittests/PlatformIntl",
+					"jsonFile" : "directory-unittests.PlatformIntl-MinSizeRel-aff460b735a5d683cfa7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/PlatformIntl",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "unittests/PlatformUnicode",
+					"jsonFile" : "directory-unittests.PlatformUnicode-MinSizeRel-aa81b94da491161c536a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/PlatformUnicode",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "unittests/API",
+					"jsonFile" : "directory-unittests.API-MinSizeRel-1c432e92cfd5420f6312.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/API",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						18
+					]
+				},
+				{
+					"build" : "unittests/ADT",
+					"jsonFile" : "directory-unittests.ADT-MinSizeRel-f185e92254e3c7e86e6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/ADT",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "unittests/Optimizer",
+					"jsonFile" : "directory-unittests.Optimizer-MinSizeRel-d3ac45ae9caa6f3fb974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "unittests/Optimizer",
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77
+					],
+					"name" : "Hermes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 75,
+					"id" : "APILeanTests::@99295c3b04dc557b3ca9",
+					"jsonFile" : "target-APILeanTests-MinSizeRel-f3b44d11def530668847.json",
+					"name" : "APILeanTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "APITests::@99295c3b04dc557b3ca9",
+					"jsonFile" : "target-APITests-MinSizeRel-0cc438c5fe64afc45c22.json",
+					"name" : "APITests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "BCP47ParserTests::@5e8682585671f5961128",
+					"jsonFile" : "target-BCP47ParserTests-MinSizeRel-ef40504d52653fe2cc17.json",
+					"name" : "BCP47ParserTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "DtoaTests::@e848e7dcf814c6c20058",
+					"jsonFile" : "target-DtoaTests-MinSizeRel-7ca325d758afacba22a4.json",
+					"name" : "DtoaTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "FileCheck::@1202de59ec449083a97a",
+					"jsonFile" : "target-FileCheck-MinSizeRel-9364778ee2a47431118e.json",
+					"name" : "FileCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "HermesADTTests::@fc696c7377ecb00ca400",
+					"jsonFile" : "target-HermesADTTests-MinSizeRel-812d0f30368b9785fd7d.json",
+					"name" : "HermesADTTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "HermesASTTests::@145d41420fcd081cfdfe",
+					"jsonFile" : "target-HermesASTTests-MinSizeRel-169dd7be7076584e8ca9.json",
+					"name" : "HermesASTTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "HermesBCGenTests::@901ecca922cd9a2d40d2",
+					"jsonFile" : "target-HermesBCGenTests-MinSizeRel-5976204e273d5d327cc7.json",
+					"name" : "HermesBCGenTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "HermesIRTests::@f38932fe4314186c7e4b",
+					"jsonFile" : "target-HermesIRTests-MinSizeRel-b7848f192e1d88ae3dc1.json",
+					"name" : "HermesIRTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "HermesInstrumentationTests::@f53ceb83440e871bd2af",
+					"jsonFile" : "target-HermesInstrumentationTests-MinSizeRel-a2dd0e1bd2de4cd4711c.json",
+					"name" : "HermesInstrumentationTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "HermesOptimizerTests::@78c0471350bfe1f83251",
+					"jsonFile" : "target-HermesOptimizerTests-MinSizeRel-cee71527d97d998e5df3.json",
+					"name" : "HermesOptimizerTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "HermesParserTests::@784c85e4015ef5eb8c61",
+					"jsonFile" : "target-HermesParserTests-MinSizeRel-c200937255a45c99bd3e.json",
+					"name" : "HermesParserTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "HermesSupportTests::@85cc75d0e16dacc65c5b",
+					"jsonFile" : "target-HermesSupportTests-MinSizeRel-2f0a182a9579f779af59.json",
+					"name" : "HermesSupportTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "HermesUnitTests::@42060a6318a19e21b55a",
+					"jsonFile" : "target-HermesUnitTests-MinSizeRel-b5dbf928bbfd37a041b2.json",
+					"name" : "HermesUnitTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "HermesVMRuntimeTests::@5e2a4019d4d1b21caf38",
+					"jsonFile" : "target-HermesVMRuntimeTests-MinSizeRel-0c0f9535bc8fdde52c1f.json",
+					"name" : "HermesVMRuntimeTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LLVHDemangle::@93aa1362766ea797fa78",
+					"jsonFile" : "target-LLVHDemangle-MinSizeRel-28ac571edf6039dbc374.json",
+					"name" : "LLVHDemangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LLVHSupport::@b80da6125add12f6486c",
+					"jsonFile" : "target-LLVHSupport-MinSizeRel-abbaf12d72dbdba601dd.json",
+					"name" : "LLVHSupport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "PlatformUnicodeTests::@8c6325660e00f9003b98",
+					"jsonFile" : "target-PlatformUnicodeTests-MinSizeRel-bd02f5ca661d4e86773d.json",
+					"name" : "PlatformUnicodeTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "SegmentTestCompile::@99295c3b04dc557b3ca9",
+					"jsonFile" : "target-SegmentTestCompile-MinSizeRel-12b246612a338fc599f0.json",
+					"name" : "SegmentTestCompile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-hermes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-hermes-MinSizeRel-1de1d819c3398a121b11.json",
+					"name" : "check-hermes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "compileJS::@917caac658e8b5404db8",
+					"jsonFile" : "target-compileJS-MinSizeRel-7350c678ca66a9dc0194.json",
+					"name" : "compileJS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "count::@c4b52d1792a63a479359",
+					"jsonFile" : "target-count-MinSizeRel-e6489809bf256a0a3c54.json",
+					"name" : "count",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "dependency-extractor::@81efae93a7de6b827c53",
+					"jsonFile" : "target-dependency-extractor-MinSizeRel-6d66cad5fe2bd8db52a1.json",
+					"name" : "dependency-extractor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "dtoa::@b04550a9eb17fa5e1190",
+					"jsonFile" : "target-dtoa-MinSizeRel-2db3f75ad140cb3c69e0.json",
+					"name" : "dtoa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "emdependency-extractor::@81efae93a7de6b827c53",
+					"jsonFile" : "target-emdependency-extractor-MinSizeRel-9617620aa8b3625737fd.json",
+					"name" : "emdependency-extractor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "emhermesc::@2e99e340e715ef5e469d",
+					"jsonFile" : "target-emhermesc-MinSizeRel-2d7231448ccdeeb67ebf.json",
+					"name" : "emhermesc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gtest::@3938725986c3ac148c4a",
+					"jsonFile" : "target-gtest-MinSizeRel-c7e3bba3909dc3619be0.json",
+					"name" : "gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "gtest_main::@89b98dbd41cf44e21fab",
+					"jsonFile" : "target-gtest_main-MinSizeRel-ce9f5266c3b88578b923.json",
+					"name" : "gtest_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "hbc-attribute::@88e9e66263fd103d5611",
+					"jsonFile" : "target-hbc-attribute-MinSizeRel-9e7338117562e78bf5bb.json",
+					"name" : "hbc-attribute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "hbc-deltaprep::@c0348d84e2d5bc8f1ec0",
+					"jsonFile" : "target-hbc-deltaprep-MinSizeRel-ef712f8343aa24f0dc94.json",
+					"name" : "hbc-deltaprep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "hbc-diff::@74437a4860db887c3a0c",
+					"jsonFile" : "target-hbc-diff-MinSizeRel-428caf7396871631e264.json",
+					"name" : "hbc-diff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "hbcdump::@9d196a94b0e592dbabd5",
+					"jsonFile" : "target-hbcdump-MinSizeRel-200f1ba71c940102e583.json",
+					"name" : "hbcdump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "hdb::@2aee12a6b71972d8c645",
+					"jsonFile" : "target-hdb-MinSizeRel-333163bc39d1dbf8e029.json",
+					"name" : "hdb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "hermes::@a90f98308eb752652d48",
+					"jsonFile" : "target-hermes-MinSizeRel-20ee365096703eedba33.json",
+					"name" : "hermes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "hermes-jsi::@89989e98ef053e4d9c12",
+					"jsonFile" : "target-hermes-jsi-MinSizeRel-6e8c9e2af5d96ffab7a4.json",
+					"name" : "hermes-jsi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hermesADT::@daa58699490d2b874fa3",
+					"jsonFile" : "target-hermesADT-MinSizeRel-767373941ba449dc1adf.json",
+					"name" : "hermesADT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "hermesAST::@c80eb5e9fa4fb9ab07bc",
+					"jsonFile" : "target-hermesAST-MinSizeRel-da69cbc090a861a68e8c.json",
+					"name" : "hermesAST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hermesAST2JS::@91fa7b8b33e2864b70db",
+					"jsonFile" : "target-hermesAST2JS-MinSizeRel-e40efbdabcc38f6d23e9.json",
+					"name" : "hermesAST2JS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hermesBCP47Parser::@fb1740ad0fc9dafc4851",
+					"jsonFile" : "target-hermesBCP47Parser-MinSizeRel-9ab0cbfaea709abdd5fb.json",
+					"name" : "hermesBCP47Parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "hermesBackend::@13c6f153e1484c006a38",
+					"jsonFile" : "target-hermesBackend-MinSizeRel-eee520018c9f2ba87318.json",
+					"name" : "hermesBackend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hermesCompilerDriver::@2af5c608eba6b6e60c3a",
+					"jsonFile" : "target-hermesCompilerDriver-MinSizeRel-0791770d520430ebc8c5.json",
+					"name" : "hermesCompilerDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "hermesConsoleHost::@ebd589224c0331270a5f",
+					"jsonFile" : "target-hermesConsoleHost-MinSizeRel-2dfdc2b4fc1e9db49cfd.json",
+					"name" : "hermesConsoleHost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "hermesDependencyExtractor::@9d80097abedc29be7379",
+					"jsonFile" : "target-hermesDependencyExtractor-MinSizeRel-72bc3300f430488b09c6.json",
+					"name" : "hermesDependencyExtractor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "hermesFlowParser::@c328a2242425bf663f64",
+					"jsonFile" : "target-hermesFlowParser-MinSizeRel-a308dc73b0917eac6dde.json",
+					"name" : "hermesFlowParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "hermesFrontEndDefs::@04867ac13794adc29ad3",
+					"jsonFile" : "target-hermesFrontEndDefs-MinSizeRel-f7cce14ade566cf4a953.json",
+					"name" : "hermesFrontEndDefs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hermesFrontend::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-hermesFrontend-MinSizeRel-9a32b567076e7640a3c7.json",
+					"name" : "hermesFrontend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hermesHBCBackend::@aa3ca05a745a6efa39e1",
+					"jsonFile" : "target-hermesHBCBackend-MinSizeRel-24dbb066ae92f4ee4841.json",
+					"name" : "hermesHBCBackend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hermesHBCBackendLean::@aa3ca05a745a6efa39e1",
+					"jsonFile" : "target-hermesHBCBackendLean-MinSizeRel-5f8c74e12e9e8e99d62f.json",
+					"name" : "hermesHBCBackendLean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "hermesInst::@7a6b9821eab8f42bc18a",
+					"jsonFile" : "target-hermesInst-MinSizeRel-1c6953baf022676f75ad.json",
+					"name" : "hermesInst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "hermesInstrumentation::@832b4788e103e3d34067",
+					"jsonFile" : "target-hermesInstrumentation-MinSizeRel-a778554f661ed143f85c.json",
+					"name" : "hermesInstrumentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "hermesInternalBytecode::@af930aa608d168689b75",
+					"jsonFile" : "target-hermesInternalBytecode-MinSizeRel-d5e43cdabcfc392089b7.json",
+					"name" : "hermesInternalBytecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hermesOptimizer::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-hermesOptimizer-MinSizeRel-4be5bd8a94853396a1d0.json",
+					"name" : "hermesOptimizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "hermesParser::@72b88d9fff5e5e02bfc5",
+					"jsonFile" : "target-hermesParser-MinSizeRel-30ff67f05a930775a682.json",
+					"name" : "hermesParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "hermesPlatform::@5b2686383c00f17c3d04",
+					"jsonFile" : "target-hermesPlatform-MinSizeRel-6ca04b94d7a4c73bc0e6.json",
+					"name" : "hermesPlatform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hermesPlatformIntl::@fb1740ad0fc9dafc4851",
+					"jsonFile" : "target-hermesPlatformIntl-MinSizeRel-cd65f64361a3ac52d76f.json",
+					"name" : "hermesPlatformIntl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "hermesPlatformUnicode::@27ee82dcdeb563be71f5",
+					"jsonFile" : "target-hermesPlatformUnicode-MinSizeRel-df9f4d7f4444ceb4a35b.json",
+					"name" : "hermesPlatformUnicode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "hermesPublic::@6c097580ec181eeb5a45",
+					"jsonFile" : "target-hermesPublic-MinSizeRel-79447fd0e52dc8ef32de.json",
+					"name" : "hermesPublic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "hermesRegex::@e0a11551843f31502045",
+					"jsonFile" : "target-hermesRegex-MinSizeRel-e0adc3f05ff9964d2698.json",
+					"name" : "hermesRegex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "hermesSourceMap::@316b9e70714df18b037c",
+					"jsonFile" : "target-hermesSourceMap-MinSizeRel-bb565e1840f075b150f0.json",
+					"name" : "hermesSourceMap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "hermesSupport::@928d1708d80fe1f55e59",
+					"jsonFile" : "target-hermesSupport-MinSizeRel-76eb285900fc0b79661a.json",
+					"name" : "hermesSupport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hermesVMRuntime::@3c9a40ebc360cf62adfe",
+					"jsonFile" : "target-hermesVMRuntime-MinSizeRel-b67871d8eb4c7447cef5.json",
+					"name" : "hermesVMRuntime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hermesVMRuntimeLean::@3c9a40ebc360cf62adfe",
+					"jsonFile" : "target-hermesVMRuntimeLean-MinSizeRel-1a6b7fdc2bb9ddc03534.json",
+					"name" : "hermesVMRuntimeLean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "hermesapi::@917caac658e8b5404db8",
+					"jsonFile" : "target-hermesapi-MinSizeRel-1ae4e93be809564b44f0.json",
+					"name" : "hermesapi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "hermesapiLean::@917caac658e8b5404db8",
+					"jsonFile" : "target-hermesapiLean-MinSizeRel-06042aebb1dcd1c84fa8.json",
+					"name" : "hermesapiLean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "hermesc::@df4627a864cded2bdc2f",
+					"jsonFile" : "target-hermesc-MinSizeRel-bb243e0e038fd1933a6b.json",
+					"name" : "hermesc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "hvm::@2de61afce701a63d3b4d",
+					"jsonFile" : "target-hvm-MinSizeRel-bd7e50a55311c7db6c2c.json",
+					"name" : "hvm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "interp-dispatch-bench::@d33ee538ebdbd8df39ee",
+					"jsonFile" : "target-interp-dispatch-bench-MinSizeRel-23ab90e6af2fca4411b0.json",
+					"name" : "interp-dispatch-bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "jsi::@41a3a44e36ed5102a161",
+					"jsonFile" : "target-jsi-MinSizeRel-aae1e3315ebfb3c8bfde.json",
+					"name" : "jsi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "jsijni::@d621c16d68fac91d50c9",
+					"jsonFile" : "target-jsijni-MinSizeRel-e8910a29cf88b53a0f5a.json",
+					"name" : "jsijni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "jsijniepi::@d621c16d68fac91d50c9",
+					"jsonFile" : "target-jsijniepi-MinSizeRel-199cab130f8cef357eff.json",
+					"name" : "jsijniepi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "libhermes::@917caac658e8b5404db8",
+					"jsonFile" : "target-libhermes-MinSizeRel-71a67b663cef43007c9c.json",
+					"name" : "libhermes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "not::@138c319a4208b0b28b1b",
+					"jsonFile" : "target-not-MinSizeRel-24b480a3011cbebfbea9.json",
+					"name" : "not",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "rustgen::@fef69c6cdd1e3cfa902e",
+					"jsonFile" : "target-rustgen-MinSizeRel-c5018f90d5fcb43ea414.json",
+					"name" : "rustgen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "synth::@02277957d69e6a873a0c",
+					"jsonFile" : "target-synth-MinSizeRel-eec6f8fcafb3367c942f.json",
+					"name" : "synth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "synthTrace::@917caac658e8b5404db8",
+					"jsonFile" : "target-synthTrace-MinSizeRel-c2c58e31f3da3b4b062a.json",
+					"name" : "synthTrace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "synthTraceParser::@917caac658e8b5404db8",
+					"jsonFile" : "target-synthTraceParser-MinSizeRel-9d90750da1e00c51aded.json",
+					"name" : "synthTraceParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "timerStats::@917caac658e8b5404db8",
+					"jsonFile" : "target-timerStats-MinSizeRel-9246e551007e11de9b6f.json",
+					"name" : "timerStats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "traceInterpreter::@917caac658e8b5404db8",
+					"jsonFile" : "target-traceInterpreter-MinSizeRel-6cd6c21072fd4fb92c77.json",
+					"name" : "traceInterpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update-lit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update-lit-MinSizeRel-30789b9c1202c32f0685.json",
+					"name" : "update-lit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "zip::@54eb83aa268fb5490d05",
+					"jsonFile" : "target-zip-MinSizeRel-dbee8082df0d62240074.json",
+					"name" : "zip",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/armeabi-v7a",
+		"source" : "/pwd/sdks/hermes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

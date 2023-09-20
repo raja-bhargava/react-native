@@ -1,0 +1,618 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesIRTests"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_hermes_executable",
+			"add_unittest",
+			"add_hermes_unittest",
+			"target_link_options",
+			"target_link_libraries",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/Hermes.cmake",
+			"cmake/modules/Lit.cmake",
+			"unittests/CMakeLists.txt",
+			"unittests/IR/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 354,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 364,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 357,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 367,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 331,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 362,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 351,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 583,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 419,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 286,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 278,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 324,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 611,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 605,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wno-deprecated-copy -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wno-range-loop-analysis -ffunction-sections -fdata-sections -faddrsig -fvisibility=hidden -Wno-sign-compare -Os -DNDEBUG -fPIE"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "GTEST_HAS_TR1_TUPLE=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "GTEST_LANG_CXX11=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "HERMESVM_ALLOW_COMPRESSED_POINTERS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "HERMESVM_ALLOW_CONCURRENT_GC"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HERMESVM_ALLOW_CONTIGUOUS_HEAP"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "HERMESVM_ALLOW_INLINE_ASM"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "HERMESVM_GC_HADES"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "HERMESVM_HEAP_SEGMENT_SIZE_KB=4096"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "HERMESVM_INDIRECT_THREADING"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "HERMES_COMPILER_SUPPORTS_WSHORTEN_64_TO_32"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "HERMES_ENABLE_INTL"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HERMES_IS_MOBILE_BUILD"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "HERMES_PLATFORM_UNICODE=HERMES_PLATFORM_UNICODE_JAVA"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "HERMES_RELEASE_VERSION=\"for RN 0.71.13\""
+				},
+				{
+					"backtrace" : 24,
+					"define" : "UNIT_TEST"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "/pwd/sdks/hermes/external"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/pwd/sdks/hermes/external/flowparser/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/pwd/sdks/hermes/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/pwd/sdks/hermes/external/llvh/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/pwd/sdks/hermes/external/llvh/gen/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/llvh/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/pwd/sdks/hermes/external/llvh/utils/unittest/googletest/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/pwd/sdks/hermes/external/llvh/utils/unittest/googlemock/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "LLVHSupport::@b80da6125add12f6486c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "LLVHDemangle::@93aa1362766ea797fa78"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "gtest::@3938725986c3ac148c4a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "gtest_main::@89b98dbd41cf44e21fab"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesOptimizer::@306ed2d68c6501e8728f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesFrontend::@306ed2d68c6501e8728f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesFrontEndDefs::@04867ac13794adc29ad3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesParser::@72b88d9fff5e5e02bfc5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesSupport::@928d1708d80fe1f55e59"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesRegex::@e0a11551843f31502045"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "hermesPlatformUnicode::@27ee82dcdeb563be71f5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "dtoa::@b04550a9eb17fa5e1190"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tests"
+	},
+	"id" : "HermesIRTests::@f38932fe4314186c7e4b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wno-deprecated-copy -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wno-range-loop-analysis -ffunction-sections -fdata-sections -faddrsig -fvisibility=hidden -Wno-sign-compare -Os -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Xlinker",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Xlinker",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "--icf=safe",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "external/llvh/lib/Support/libLLVHSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "external/llvh/utils/unittest/UnitTestMain/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "external/llvh/utils/unittest/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "external/llvh/lib/Support/libLLVHSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libhermesFrontend.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libhermesOptimizer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/Parser/libhermesParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/Support/libhermesSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "external/dtoa/libdtoa.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/FrontEndDefs/libhermesFrontEndDefs.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/AST/libhermesAST.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/Support/libhermesSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "external/dtoa/libdtoa.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/Regex/libhermesRegex.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/Platform/Unicode/libhermesPlatformUnicode.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "external/llvh/lib/Support/libLLVHSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "external/llvh/lib/Demangle/libLLVHDemangle.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "HermesIRTests",
+	"nameOnDisk" : "HermesIRTests",
+	"paths" : 
+	{
+		"build" : "unittests/IR",
+		"source" : "unittests/IR"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/BasicBlockTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/BuilderTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/InstrTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/IRUtilsTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/IRVerifierTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/LoopAnalysisTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/ScopeAnalysisTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "unittests/IR/ScopeChainTest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
