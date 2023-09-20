@@ -1,0 +1,4 @@
+/opt/android/cmake/3.22.1/bin/ninja \
+  -C \
+  /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86 \
+  libhermes

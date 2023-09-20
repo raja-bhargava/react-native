@@ -1,0 +1,655 @@
+{
+  "buildFiles": [
+    "/pwd/ReactCommon/jsi/jsi/CMakeLists.txt",
+    "/pwd/sdks/hermes/API/CMakeLists.txt",
+    "/pwd/sdks/hermes/API/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/android/intltest/java/com/facebook/hermes/test/CMakeLists.txt",
+    "/pwd/sdks/hermes/cmake/modules/Hermes.cmake",
+    "/pwd/sdks/hermes/cmake/modules/Lit.cmake",
+    "/pwd/sdks/hermes/external/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/dtoa/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/cmake/config-ix.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckAtomic.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckCompilerVersion.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/CheckLinkerFlag.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/DetermineGCCCompatible.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/FindLibpfm.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/GetHostTriple.cmake",
+    "/pwd/sdks/hermes/external/llvh/cmake/modules/HandleLLVMStdlib.cmake",
+    "/pwd/sdks/hermes/external/llvh/include/llvh/Config/config.h.cmake",
+    "/pwd/sdks/hermes/external/llvh/include/llvh/Config/llvm-config.h.cmake",
+    "/pwd/sdks/hermes/external/llvh/lib/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/lib/Demangle/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/lib/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/FileCheck/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/count/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/not/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/unittest/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/llvh/utils/unittest/UnitTestMain/CMakeLists.txt",
+    "/pwd/sdks/hermes/external/zip/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/ADT/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/AST/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/AST2JS/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/BCGen/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/BCGen/HBC/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/CompilerDriver/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/ConsoleHost/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/DependencyExtractor/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/FlowParser/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/FrontEndDefs/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Inst/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/InternalBytecode/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/Intl/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Platform/Unicode/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Regex/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/SourceMap/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/VM/CMakeLists.txt",
+    "/pwd/sdks/hermes/lib/VM/Instrumentation/CMakeLists.txt",
+    "/pwd/sdks/hermes/public/CMakeLists.txt",
+    "/pwd/sdks/hermes/public/hermes/Public/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/dependency-extractor/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/emhermesc/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/fuzzilli/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/fuzzers/libfuzzer/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-attribute/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-deltaprep/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbc-diff/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hbcdump/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hdb/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermes-parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hermesc/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hvm-bench/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/hvm/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/jsi/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/node-hermes/CMakeLists.txt",
+    "/pwd/sdks/hermes/tools/synth/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/ADT/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/API/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/AST/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/BCGen/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/IR/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Optimizer/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Parser/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/PlatformIntl/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/PlatformUnicode/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/Support/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/VMRuntime/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/VMRuntime/Instrumentation/CMakeLists.txt",
+    "/pwd/sdks/hermes/unittests/dtoa/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/tools/CMakeLists.txt",
+    "/pwd/sdks/hermes/unsupported/tools/rustgen/CMakeLists.txt",
+    "/pwd/sdks/hermes/utils/hermes-lit/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/android/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/android/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "emhermesc::@2e99e340e715ef5e469d": {
+      "artifactName": "emhermesc",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/emhermesc",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesSupport::@928d1708d80fe1f55e59": {
+      "artifactName": "hermesSupport",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Support/libhermesSupport.a",
+      "runtimeFiles": []
+    },
+    "not::@138c319a4208b0b28b1b": {
+      "artifactName": "not",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/not",
+      "runtimeFiles": []
+    },
+    "hermesPlatformUnicode::@27ee82dcdeb563be71f5": {
+      "artifactName": "hermesPlatformUnicode",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Platform/Unicode/libhermesPlatformUnicode.a",
+      "runtimeFiles": []
+    },
+    "HermesInstrumentationTests::@f53ceb83440e871bd2af": {
+      "artifactName": "HermesInstrumentationTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesInstrumentationTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesFrontend::@306ed2d68c6501e8728f": {
+      "artifactName": "hermesFrontend",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/libhermesFrontend.a",
+      "runtimeFiles": []
+    },
+    "libhermes::@917caac658e8b5404db8": {
+      "artifactName": "libhermes",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libhermes.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "gtest_main::@89b98dbd41cf44e21fab": {
+      "artifactName": "gtest_main",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/llvh/utils/unittest/UnitTestMain/libgtest_main.a",
+      "runtimeFiles": []
+    },
+    "hermesRegex::@e0a11551843f31502045": {
+      "artifactName": "hermesRegex",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Regex/libhermesRegex.a",
+      "runtimeFiles": []
+    },
+    "LLVHDemangle::@93aa1362766ea797fa78": {
+      "artifactName": "LLVHDemangle",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/llvh/lib/Demangle/libLLVHDemangle.a",
+      "runtimeFiles": []
+    },
+    "SegmentTestCompile::@99295c3b04dc557b3ca9": {
+      "artifactName": "SegmentTestCompile",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/unittests/API/libSegmentTestCompile.a",
+      "runtimeFiles": []
+    },
+    "check-hermes::@6890427a1f51a3e7e1df": {
+      "artifactName": "check-hermes",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "hvm::@2de61afce701a63d3b4d": {
+      "artifactName": "hvm",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hvm",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "jsijni::@d621c16d68fac91d50c9": {
+      "artifactName": "jsijni",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsijni.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libhermes.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "DtoaTests::@e848e7dcf814c6c20058": {
+      "artifactName": "DtoaTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/DtoaTests",
+      "runtimeFiles": []
+    },
+    "HermesADTTests::@fc696c7377ecb00ca400": {
+      "artifactName": "HermesADTTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesADTTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesAST2JS::@91fa7b8b33e2864b70db": {
+      "artifactName": "hermesAST2JS",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/AST2JS/libhermesAST2JS.a",
+      "runtimeFiles": []
+    },
+    "hermesapi::@917caac658e8b5404db8": {
+      "artifactName": "hermesapi",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libhermesapi.a",
+      "runtimeFiles": []
+    },
+    "hermesInstrumentation::@832b4788e103e3d34067": {
+      "artifactName": "hermesInstrumentation",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/VM/Instrumentation/libhermesInstrumentation.a",
+      "runtimeFiles": []
+    },
+    "hermesFrontEndDefs::@04867ac13794adc29ad3": {
+      "artifactName": "hermesFrontEndDefs",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/FrontEndDefs/libhermesFrontEndDefs.a",
+      "runtimeFiles": []
+    },
+    "jsijniepi::@d621c16d68fac91d50c9": {
+      "artifactName": "jsijniepi",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsijniepi.so",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libhermes.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "HermesBCGenTests::@901ecca922cd9a2d40d2": {
+      "artifactName": "HermesBCGenTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesBCGenTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesADT::@daa58699490d2b874fa3": {
+      "artifactName": "hermesADT",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/ADT/libhermesADT.a",
+      "runtimeFiles": []
+    },
+    "hermesFlowParser::@c328a2242425bf663f64": {
+      "artifactName": "hermesFlowParser",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/FlowParser/libhermesFlowParser.a",
+      "runtimeFiles": []
+    },
+    "hermesSourceMap::@316b9e70714df18b037c": {
+      "artifactName": "hermesSourceMap",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/SourceMap/libhermesSourceMap.a",
+      "runtimeFiles": []
+    },
+    "hermesInst::@7a6b9821eab8f42bc18a": {
+      "artifactName": "hermesInst",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Inst/libhermesInst.a",
+      "runtimeFiles": []
+    },
+    "BCP47ParserTests::@5e8682585671f5961128": {
+      "artifactName": "BCP47ParserTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/BCP47ParserTests",
+      "runtimeFiles": []
+    },
+    "hermesInternalBytecode::@af930aa608d168689b75": {
+      "artifactName": "hermesInternalBytecode",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/InternalBytecode/libhermesInternalBytecode.a",
+      "runtimeFiles": []
+    },
+    "LLVHSupport::@b80da6125add12f6486c": {
+      "artifactName": "LLVHSupport",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/llvh/lib/Support/libLLVHSupport.a",
+      "runtimeFiles": []
+    },
+    "HermesParserTests::@784c85e4015ef5eb8c61": {
+      "artifactName": "HermesParserTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesParserTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesPlatform::@5b2686383c00f17c3d04": {
+      "artifactName": "hermesPlatform",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Platform/libhermesPlatform.a",
+      "runtimeFiles": []
+    },
+    "hermesc::@df4627a864cded2bdc2f": {
+      "artifactName": "hermesc",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hermesc",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "synth::@02277957d69e6a873a0c": {
+      "artifactName": "synth",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/synth",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so"
+      ]
+    },
+    "HermesASTTests::@145d41420fcd081cfdfe": {
+      "artifactName": "HermesASTTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesASTTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "count::@c4b52d1792a63a479359": {
+      "artifactName": "count",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/count",
+      "runtimeFiles": []
+    },
+    "HermesUnitTests::@42060a6318a19e21b55a": {
+      "artifactName": "HermesUnitTests",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "PlatformUnicodeTests::@8c6325660e00f9003b98": {
+      "artifactName": "PlatformUnicodeTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/PlatformUnicodeTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "compileJS::@917caac658e8b5404db8": {
+      "artifactName": "compileJS",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libcompileJS.a",
+      "runtimeFiles": []
+    },
+    "hermesHBCBackend::@aa3ca05a745a6efa39e1": {
+      "artifactName": "hermesHBCBackend",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/BCGen/HBC/libhermesHBCBackend.a",
+      "runtimeFiles": []
+    },
+    "hdb::@2aee12a6b71972d8c645": {
+      "artifactName": "hdb",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hdb",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "HermesSupportTests::@85cc75d0e16dacc65c5b": {
+      "artifactName": "HermesSupportTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesSupportTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesAST::@c80eb5e9fa4fb9ab07bc": {
+      "artifactName": "hermesAST",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/AST/libhermesAST.a",
+      "runtimeFiles": []
+    },
+    "interp-dispatch-bench::@d33ee538ebdbd8df39ee": {
+      "artifactName": "interp-dispatch-bench",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/interp-dispatch-bench",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "synthTraceParser::@917caac658e8b5404db8": {
+      "artifactName": "synthTraceParser",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libsynthTraceParser.a",
+      "runtimeFiles": []
+    },
+    "HermesVMRuntimeTests::@5e2a4019d4d1b21caf38": {
+      "artifactName": "HermesVMRuntimeTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesVMRuntimeTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "HermesOptimizerTests::@78c0471350bfe1f83251": {
+      "artifactName": "HermesOptimizerTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesOptimizerTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermes-jsi::@89989e98ef053e4d9c12": {
+      "artifactName": "hermes-jsi",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hermes-jsi",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesPlatformIntl::@fb1740ad0fc9dafc4851": {
+      "artifactName": "hermesPlatformIntl",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Platform/Intl/libhermesPlatformIntl.a",
+      "runtimeFiles": []
+    },
+    "synthTrace::@917caac658e8b5404db8": {
+      "artifactName": "synthTrace",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libsynthTrace.a",
+      "runtimeFiles": []
+    },
+    "hbc-deltaprep::@c0348d84e2d5bc8f1ec0": {
+      "artifactName": "hbc-deltaprep",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hbc-deltaprep",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesBCP47Parser::@fb1740ad0fc9dafc4851": {
+      "artifactName": "hermesBCP47Parser",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Platform/Intl/libhermesBCP47Parser.a",
+      "runtimeFiles": []
+    },
+    "hermesVMRuntimeLean::@3c9a40ebc360cf62adfe": {
+      "artifactName": "hermesVMRuntimeLean",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/VM/libhermesVMRuntimeLean.a",
+      "runtimeFiles": []
+    },
+    "FileCheck::@1202de59ec449083a97a": {
+      "artifactName": "FileCheck",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/FileCheck",
+      "runtimeFiles": []
+    },
+    "hermesParser::@72b88d9fff5e5e02bfc5": {
+      "artifactName": "hermesParser",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/Parser/libhermesParser.a",
+      "runtimeFiles": []
+    },
+    "update-lit::@6890427a1f51a3e7e1df": {
+      "artifactName": "update-lit",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "hermesOptimizer::@306ed2d68c6501e8728f": {
+      "artifactName": "hermesOptimizer",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/libhermesOptimizer.a",
+      "runtimeFiles": []
+    },
+    "hermes::@a90f98308eb752652d48": {
+      "artifactName": "hermes",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hermes",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "rustgen::@fef69c6cdd1e3cfa902e": {
+      "artifactName": "rustgen",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/rustgen",
+      "runtimeFiles": []
+    },
+    "HermesIRTests::@f38932fe4314186c7e4b": {
+      "artifactName": "HermesIRTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/HermesIRTests",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesDependencyExtractor::@9d80097abedc29be7379": {
+      "artifactName": "hermesDependencyExtractor",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/DependencyExtractor/libhermesDependencyExtractor.a",
+      "runtimeFiles": []
+    },
+    "dependency-extractor::@81efae93a7de6b827c53": {
+      "artifactName": "dependency-extractor",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/dependency-extractor",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesCompilerDriver::@2af5c608eba6b6e60c3a": {
+      "artifactName": "hermesCompilerDriver",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/CompilerDriver/libhermesCompilerDriver.a",
+      "runtimeFiles": []
+    },
+    "emdependency-extractor::@81efae93a7de6b827c53": {
+      "artifactName": "emdependency-extractor",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/emdependency-extractor",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesPublic::@6c097580ec181eeb5a45": {
+      "artifactName": "hermesPublic",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/public/hermes/Public/libhermesPublic.a",
+      "runtimeFiles": []
+    },
+    "dtoa::@b04550a9eb17fa5e1190": {
+      "artifactName": "dtoa",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/dtoa/libdtoa.a",
+      "runtimeFiles": []
+    },
+    "hermesapiLean::@917caac658e8b5404db8": {
+      "artifactName": "hermesapiLean",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libhermesapiLean.a",
+      "runtimeFiles": []
+    },
+    "hbcdump::@9d196a94b0e592dbabd5": {
+      "artifactName": "hbcdump",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hbcdump",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hbc-diff::@74437a4860db887c3a0c": {
+      "artifactName": "hbc-diff",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hbc-diff",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hbc-attribute::@88e9e66263fd103d5611": {
+      "artifactName": "hbc-attribute",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/bin/hbc-attribute",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "timerStats::@917caac658e8b5404db8": {
+      "artifactName": "timerStats",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libtimerStats.a",
+      "runtimeFiles": []
+    },
+    "hermesHBCBackendLean::@aa3ca05a745a6efa39e1": {
+      "artifactName": "hermesHBCBackendLean",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/BCGen/HBC/libhermesHBCBackendLean.a",
+      "runtimeFiles": []
+    },
+    "traceInterpreter::@917caac658e8b5404db8": {
+      "artifactName": "traceInterpreter",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/API/hermes/libtraceInterpreter.a",
+      "runtimeFiles": []
+    },
+    "APITests::@99295c3b04dc557b3ca9": {
+      "artifactName": "APITests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/APITests",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "APILeanTests::@99295c3b04dc557b3ca9": {
+      "artifactName": "APILeanTests",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/APILeanTests",
+      "runtimeFiles": [
+        "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+        "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "hermesBackend::@13c6f153e1484c006a38": {
+      "artifactName": "hermesBackend",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/BCGen/libhermesBackend.a",
+      "runtimeFiles": []
+    },
+    "zip::@54eb83aa268fb5490d05": {
+      "artifactName": "zip",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/zip/libzip.a",
+      "runtimeFiles": []
+    },
+    "hermesConsoleHost::@ebd589224c0331270a5f": {
+      "artifactName": "hermesConsoleHost",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/ConsoleHost/libhermesConsoleHost.a",
+      "runtimeFiles": []
+    },
+    "jsi::@41a3a44e36ed5102a161": {
+      "artifactName": "jsi",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/MinSizeRel/g5i6w2n1/obj/x86/libjsi.so",
+      "runtimeFiles": []
+    },
+    "hermesVMRuntime::@3c9a40ebc360cf62adfe": {
+      "artifactName": "hermesVMRuntime",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/lib/VM/libhermesVMRuntime.a",
+      "runtimeFiles": []
+    },
+    "gtest::@3938725986c3ac148c4a": {
+      "artifactName": "gtest",
+      "abi": "x86",
+      "output": "/pwd/ReactAndroid/hermes-engine/.cxx/MinSizeRel/g5i6w2n1/x86/external/llvh/utils/unittest/libgtest.a",
+      "runtimeFiles": []
+    }
+  }
+}

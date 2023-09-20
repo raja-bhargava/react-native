@@ -1,0 +1,19 @@
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java \
+  --class-path \
+  /root/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar \
+  com.google.prefab.cli.AppKt \
+  --build-system \
+  cmake \
+  --platform \
+  android \
+  --abi \
+  x86 \
+  --os-version \
+  21 \
+  --stl \
+  c++_shared \
+  --ndk-version \
+  23 \
+  --output \
+  /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/x86/prefab-configure \
+  /root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab

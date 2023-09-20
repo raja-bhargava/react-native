@@ -1,0 +1,197 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/arm64-v8a",
+  "soFolder": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/arm64-v8a",
+  "soRepublishFolder": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DHERMES_IS_ANDROID\u003dTrue",
+      "-DANDROID_STL\u003dc++_shared",
+      "-DANDROID_PIE\u003dTrue",
+      "-DANDROID_LD\u003dlld",
+      "-DIMPORT_HERMESC\u003d/pwd/ReactAndroid/hermes-engine/build/hermes/ImportHermesc.cmake",
+      "-DJSI_DIR\u003d/pwd/ReactCommon/jsi",
+      "-DHERMES_SLOW_DEBUG\u003dFalse",
+      "-DHERMES_BUILD_SHARED_JSI\u003dTrue",
+      "-DHERMES_RELEASE_VERSION\u003dfor RN 0.71.13",
+      "-DHERMES_ENABLE_INTL\u003dTrue",
+      "-DCMAKE_BUILD_TYPE\u003dRelease"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [
+      "libhermes"
+    ],
+    "implicitBuildTargetSet": [
+      "libhermes"
+    ],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/pwd/ReactAndroid/hermes-engine/.cxx",
+      "intermediatesBaseFolder": "/pwd/ReactAndroid/hermes-engine/build/intermediates",
+      "intermediatesFolder": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx",
+      "gradleModulePathName": ":ReactAndroid:hermes-engine",
+      "moduleRootFolder": "/pwd/ReactAndroid/hermes-engine",
+      "moduleBuildFile": "/pwd/ReactAndroid/hermes-engine/build.gradle",
+      "makeFile": "/pwd/sdks/hermes/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/opt/android/ndk/23.1.7779620",
+      "ndkVersion": "23.1.7779620",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/opt/android/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/opt/android/cmake/3.22.1/bin/cmake",
+        "minimumCmakeVersion": "3.22.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/pwd",
+        "sdkFolder": "/opt/android",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true
+      },
+      "outputOptions": [],
+      "ninjaExe": "/opt/android/cmake/3.22.1/bin/ninja"
+    },
+    "prefabClassPaths": [
+      "/root/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar"
+    ],
+    "prefabPackages": [
+      "/root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab"
+    ],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_shared",
+    "optimizationTag": "Release"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/arm64-v8a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "625h6k5p2o1b286qg48222yp4l5i602b44111t5u4i315o2w6n5m5422o6d6",
+  "configurationArguments": [
+    "-H/pwd/sdks/hermes",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/opt/android/ndk/23.1.7779620",
+    "-DCMAKE_ANDROID_NDK\u003d/opt/android/ndk/23.1.7779620",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/opt/android/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/opt/android/cmake/3.22.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/arm64-v8a",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/arm64-v8a/prefab",
+    "-B/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/arm64-v8a",
+    "-GNinja",
+    "-DHERMES_IS_ANDROID\u003dTrue",
+    "-DANDROID_STL\u003dc++_shared",
+    "-DANDROID_PIE\u003dTrue",
+    "-DANDROID_LD\u003dlld",
+    "-DIMPORT_HERMESC\u003d/pwd/ReactAndroid/hermes-engine/build/hermes/ImportHermesc.cmake",
+    "-DJSI_DIR\u003d/pwd/ReactCommon/jsi",
+    "-DHERMES_SLOW_DEBUG\u003dFalse",
+    "-DHERMES_BUILD_SHARED_JSI\u003dTrue",
+    "-DHERMES_RELEASE_VERSION\u003dfor RN 0.71.13",
+    "-DHERMES_ENABLE_INTL\u003dTrue",
+    "-DCMAKE_BUILD_TYPE\u003dRelease"
+  ],
+  "stlLibraryFile": "/opt/android/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+  "intermediatesParentFolder": "/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p"
+}

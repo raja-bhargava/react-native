@@ -1,0 +1,212 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1544428078
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86/android_gradle_build.json due to:",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 634322087
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1756139141
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 887498019
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 916701550
+  },
+  {
+    "level_": 0,
+    "message_": "- prefab configuration has changed",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 64129233
+  },
+  {
+    "level_": 0,
+    "message_": "/usr/lib/jvm/java-17-openjdk-amd64/bin/java \\\n  --class-path \\\n  /root/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  x86 \\\n  --os-version \\\n  21 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  23 \\\n  --output \\\n  /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/x86/prefab-configure \\\n  /root/.gradle/caches/transforms-3/67c92f014f4b560624ef31d7bf26af2b/transformed/fbjni-0.3.0/prefab\n",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1330336502
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86\u0027",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1838900382
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86\u0027",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 649778346
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /opt/android/cmake/3.22.1/bin/cmake \\\n  -H/pwd/sdks/hermes \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003dx86 \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003dx86 \\\n  -DANDROID_NDK\u003d/opt/android/ndk/23.1.7779620 \\\n  -DCMAKE_ANDROID_NDK\u003d/opt/android/ndk/23.1.7779620 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/opt/android/ndk/23.1.7779620/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/opt/android/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/x86 \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/x86 \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/x86/prefab \\\n  -B/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86 \\\n  -GNinja \\\n  -DHERMES_IS_ANDROID\u003dTrue \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DANDROID_PIE\u003dTrue \\\n  -DANDROID_LD\u003dlld \\\n  -DIMPORT_HERMESC\u003d/pwd/ReactAndroid/hermes-engine/build/hermes/ImportHermesc.cmake \\\n  -DJSI_DIR\u003d/pwd/ReactCommon/jsi \\\n  -DHERMES_SLOW_DEBUG\u003dFalse \\\n  -DHERMES_BUILD_SHARED_JSI\u003dTrue \\\n  \"-DHERMES_RELEASE_VERSION\u003dfor RN 0.71.13\" \\\n  -DHERMES_ENABLE_INTL\u003dTrue \\\n  -DCMAKE_BUILD_TYPE\u003dRelease\n",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 928533045
+  },
+  {
+    "level_": 0,
+    "message_": "/opt/android/cmake/3.22.1/bin/cmake \\\n  -H/pwd/sdks/hermes \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003dx86 \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003dx86 \\\n  -DANDROID_NDK\u003d/opt/android/ndk/23.1.7779620 \\\n  -DCMAKE_ANDROID_NDK\u003d/opt/android/ndk/23.1.7779620 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/opt/android/ndk/23.1.7779620/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/opt/android/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/x86 \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/x86 \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/prefab/x86/prefab \\\n  -B/pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86 \\\n  -GNinja \\\n  -DHERMES_IS_ANDROID\u003dTrue \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DANDROID_PIE\u003dTrue \\\n  -DANDROID_LD\u003dlld \\\n  -DIMPORT_HERMESC\u003d/pwd/ReactAndroid/hermes-engine/build/hermes/ImportHermesc.cmake \\\n  -DJSI_DIR\u003d/pwd/ReactCommon/jsi \\\n  -DHERMES_SLOW_DEBUG\u003dFalse \\\n  -DHERMES_BUILD_SHARED_JSI\u003dTrue \\\n  \"-DHERMES_RELEASE_VERSION\u003dfor RN 0.71.13\" \\\n  -DHERMES_ENABLE_INTL\u003dTrue \\\n  -DCMAKE_BUILD_TYPE\u003dRelease\n",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 453568598
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86/compile_commands.json.bin normally",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 96704047
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 604355299
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /pwd/ReactAndroid/hermes-engine/.cxx/Release/625h6k5p/x86/metadata_generation_command.txt",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -981461541
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/pwd/sdks/hermes/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1752538913
+  }
+]

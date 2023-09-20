@@ -1,0 +1,1 @@
+/pwd/ReactAndroid/hermes-engine/build/intermediates/cxx/Release/625h6k5p/obj/x86
